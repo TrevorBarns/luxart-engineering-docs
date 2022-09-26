@@ -3,7 +3,7 @@ description: Free emergency vehicle resources and equipment for FiveM.
 layout: landing
 ---
 
-# 🛬 Welcome to Luxart Engineering
+# Welcome to Luxart Engineering
 
 ## Luxart Vehicle Control: <mark style="color:orange;">Fleet</mark>
 

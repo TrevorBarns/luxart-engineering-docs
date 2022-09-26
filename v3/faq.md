@@ -2,7 +2,7 @@
 description: Frequently asked question about LVCv3.
 ---
 
-# FAQ
+# ❔ FAQ
 
 ## Frequently Asked Questions
 
