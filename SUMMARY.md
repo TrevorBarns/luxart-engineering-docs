@@ -20,11 +20,11 @@
   * [Server Sided Siren Integration](v3/advanced-configuration/server-sided-siren-integration.md)
 * [❔ FAQ](v3/faq.md)
 
-## Share Plugins
+## Shared Plugins
 
-* [🔌 Introduction to Plugins](share-plugins/introduction-to-plugins.md)
-* [🔦 Take-downs](share-plugins/take-downs.md)
-* [🎮 Extra Controls](share-plugins/extra-controls.md)
-* [⚡ Extra Integrations](share-plugins/extra-integrations.md)
-* [🔛 Traffic Advisor](share-plugins/traffic-advisor.md)
-* [🚛 Trailer Support](share-plugins/trailer-support.md)
+* [🔌 Introduction to Plugins](shared-plugins/introduction-to-plugins.md)
+* [🔦 Take-downs](shared-plugins/take-downs.md)
+* [🎮 Extra Controls](shared-plugins/extra-controls.md)
+* [⚡ Extra Integrations](shared-plugins/extra-integrations.md)
+* [🔛 Traffic Advisor](shared-plugins/traffic-advisor.md)
+* [🚛 Trailer Support](shared-plugins/trailer-support.md)

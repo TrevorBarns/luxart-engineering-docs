@@ -1,8 +1,8 @@
 ---
-description: Instruction on how to install LVC:F into your server
+description: Instructions on how to install LVC:F into your server
 ---
 
-# Resource Installation
+# 📄 Resource Installation
 
 Download the latest stable release `Luxart.Vehicle.Control.Fleet.vX.X.X.zip` (not source code) from [releases](https://github.com/TrevorBarns/luxart-vehicle-control-fleet/releases).
 
