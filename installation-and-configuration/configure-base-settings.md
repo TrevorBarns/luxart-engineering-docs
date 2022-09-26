@@ -1,4 +1,4 @@
-# Configure Base Settings
+# ⚙ Configure Base Settings
 
 ### Set a Community&#x20;
 
@@ -39,31 +39,3 @@ List of Keys**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/ga
 `hazard_key`_:_ when held for __ `hazard_hold_duration` toggle 4-way flashers.\
 `left_signal_key`: toggle left turn signal.\
 `right_signal_key`: toggle right turn signal.
-
-****
-
-####
-
-
-
-{% tabs %}
-{% tab title="open_menu_key" %}
-
-{% endtab %}
-
-{% tab title="lockout_default_hotkey" %}
-
-{% endtab %}
-
-{% tab title="locked_press_count" %}
-
-{% endtab %}
-
-{% tab title="reminder_rate" %}
-
-{% endtab %}
-
-{% tab title="main_siren_set_register_keys_set_defaults" %}
-
-{% endtab %}
-{% endtabs %}

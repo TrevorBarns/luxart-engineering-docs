@@ -19,11 +19,32 @@ Toggling these require the `refresh` command to be ran first, then restart the r
 
 ### Custom HUD
 
+#### Custom Graphics
+
 The in game siren controller display or heads-up-display UI can be modified to your liking, you will need an understanding of HTML, Javascript, and NUI.&#x20;
 
 {% hint style="info" %}
 Support is limited in this area.
 {% endhint %}
+
+#### Move Default HUD location
+
+All HUD related functions/code is located in the UI folder. The default position of the HUD is set in `UI/html/style.css`.
+
+```css
+#sirenbox {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	width: 602px;
+	height: 161px;
+	left: 0%;
+	top: 68%;
+	transform-origin: left top;
+	transform: scale(0.6);
+	background-image: url("../textures/background.png");
+}
+```
 
 ### Custom Audio Schemes
 

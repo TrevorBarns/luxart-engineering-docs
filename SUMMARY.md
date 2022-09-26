@@ -17,3 +17,4 @@
 * [Assign Sirens](v3/assign-sirens.md)
 * [Server Sided Siren Integration](v3/server-sided-siren-integration.md)
 * [Advanced Configuration](v3/advanced-configuration.md)
+* [FAQ](v3/faq.md)
