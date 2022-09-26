@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Luxart Engineering](README.md)
+* [🛬 Welcome to Luxart Engineering](README.md)
 * [🚔 What is LVC: Fleet?](<README (1).md>)
 
 ## 📄 Installation & Configuration
