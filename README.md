@@ -17,8 +17,8 @@ The new an improved latest resource from Luxart Engineering, coming soon!
 [README (1).md](<README (1).md>)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="installation-and-configuration/resource-installation.md" %}
+[resource-installation.md](installation-and-configuration/resource-installation.md)
 {% endcontent-ref %}
 
 {% embed url="https://github.com/TrevorBarns/luxart-vehicle-control-fleet/releases" %}
