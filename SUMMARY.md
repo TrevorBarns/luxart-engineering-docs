@@ -1,6 +1,7 @@
 # Table of contents
 
-* [🚔 What is LVC: Fleet?](README.md)
+* [Page 1](README.md)
+* [🚔 What is LVC: Fleet?](<README (1).md>)
 
 ## 📄 Installation & Configuration
 
