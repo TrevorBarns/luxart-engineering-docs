@@ -1,4 +1,8 @@
-# Extra Integrations
+---
+description: Toggle extras based on vehicle states.
+---
+
+# ⚡ Extra Integrations
 
 ## Introduction
 
@@ -42,24 +46,27 @@ In addition to toggling extras, this plugin can be used to handle brake light fu
     }
     ```
 
-    #### Toggle
+    ####
 
-    A toggle key will toggle a single extra on trigger or multiple extra if a table is passed in.
+#### Toggle
 
-    * Single Example: `toggle = { "DSeat" }`
-    * Multiple Example: `toggle = { "Takedowns", "AirHorn" }`
+A toggle key will toggle a single extra on trigger or multiple extra if a table is passed in.
 
-    #### Add & Remove
+* Single Example: `toggle = { "DSeat" }`
+* Multiple Example: `toggle = { "Takedowns", "AirHorn" }`
 
-    Add / Remove tables are not currently supported, instead use toggle. Use `reverse` flag to change when state is "active".
+#### Add & Remove
 
-    #### Repair Flag
+Add / Remove tables are not currently supported, instead use toggle. Use `reverse` flag to change when state is "active".
 
-    A repair flag can optionally be added for higher poly extras. GTA will set extras of low poly items without repairing the vehicle, however for things like spotlights, lightbars, etc. the repair flag may need to be set. By default `repair` is set to disabled, to override add `repair = true` somewhere inside the desired trigger table.
+#### Repair Flag
 
-    * Examples:
-      * `[7] = { repair = true, toggle = { "Takedowns", "AirHorn" } },`
-      * `[8] = { repair = true, toggle = { "DSeat" } },`
-4. Finished ✅ , configure your personal settings in game under 'Plugins/Extra Integrations' menu.
+A repair flag can optionally be added for higher poly extras. GTA will set extras of low poly items without repairing the vehicle, however for things like spotlights, lightbars, etc. the repair flag may need to be set. By default `repair` is set to disabled, to override add `repair = true` somewhere inside the desired trigger table.
+
+* Examples:
+  * `[7] = { repair = true, toggle = { "Takedowns", "AirHorn" } },`
+  * `[8] = { repair = true, toggle = { "DSeat" } },`
+
+#### Finished ✅ , configure your personal settings in game under 'Plugins/Extra Integrations' menu.
 
 \
