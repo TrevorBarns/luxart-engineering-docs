@@ -1,10 +1,18 @@
 # Table of contents
 
-* [🛬 Welcome to Luxart Engineering](README.md)
-* [🚔 What is LVC: Fleet?](<README (1).md>)
+* [Welcome to Luxart Engineering](README.md)
 
-## 📄 Installation & Configuration
+## Fleet
 
-* [Resource Installation](installation-and-configuration/resource-installation.md)
-* [Customize VCFs](installation-and-configuration/customize-vcfs.md)
-* [Configure Base Settings](installation-and-configuration/configure-base-settings.md)
+* [🚔 What is LVC: Fleet?](fleet/what-is-lvc-fleet.md)
+* [📄 Resource Installation](fleet/resource-installation.md)
+* [🛠 Customize VCFs](fleet/customize-vcfs.md)
+* [⚙ Configure Base Settings](fleet/configure-base-settings.md)
+
+## v3
+
+* [Resource Installation](v3/resource-installation.md)
+
+***
+
+* [Page 1](page-1.md)

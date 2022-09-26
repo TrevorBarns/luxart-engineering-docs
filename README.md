@@ -3,7 +3,7 @@ description: Free emergency vehicle resources and equipment for FiveM.
 layout: landing
 ---
 
-# 🛬 Welcome to Luxart Engineering
+# Welcome to Luxart Engineering
 
 ## Luxart Vehicle Control: <mark style="color:orange;">Fleet</mark>
 
@@ -11,8 +11,8 @@ The new an improved latest resource from Luxart Engineering, coming soon!
 
 <figure><img src=".gitbook/assets/luxvehcontrol-fleet-logo-med.png" alt=""><figcaption><p>LVC:F Logo</p></figcaption></figure>
 
-{% content-ref url="README (1).md" %}
-[README (1).md](<README (1).md>)
+{% content-ref url="fleet/what-is-lvc-fleet.md" %}
+[what-is-lvc-fleet.md](fleet/what-is-lvc-fleet.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
