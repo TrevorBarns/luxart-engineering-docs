@@ -1,4 +1,4 @@
-# ⚙ Configure Base Settings
+# Configure Base Settings
 
 ### Set a Community&#x20;
 

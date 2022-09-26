@@ -15,4 +15,5 @@
 * [Configure Base Settings](v3/configure-base-settings.md)
 * [Configure Sirens](v3/configure-sirens.md)
 * [Assign Sirens](v3/assign-sirens.md)
+* [Server Sided Siren Integration](v3/server-sided-siren-integration.md)
 * [Advanced Configuration](v3/advanced-configuration.md)
