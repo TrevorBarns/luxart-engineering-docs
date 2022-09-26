@@ -10,6 +10,16 @@ The "extra\_integration" plugin handles specific actions based on vehicles state
 
 In addition to toggling extras, this plugin can be used to handle brake light function when stopped, automatically applying brake lights without the control needing to be held.
 
+#### Real-life Examples:
+
+{% embed url="https://www.youtube.com/watch?v=V-j__JXwqOk" %}
+SoundOff BluePRINT Functionality
+{% endembed %}
+
+{% embed url="https://youtu.be/-Ww6jQxuL2g?t=562" %}
+Whelen Cencom Carbide Functionality
+{% endembed %}
+
 ### **Currently Supported States/Extras:**
 
 |   Common Name   | String       | Trigger                                               |
@@ -35,6 +45,7 @@ In addition to toggling extras, this plugin can be used to handle brake light fu
 3.  Now configure the EXTRA\_ASSIGNMENTS table to your liking. The Extra Assignments table is very dynamic an allows for multiple set up variations.\
     _Example:_
 
+    {% code title="SETTINGS.lua" %}
     ```lua
     EXTRA_ASSIGNMENTS = {
         ['LAPD'] = { 
@@ -45,6 +56,7 @@ In addition to toggling extras, this plugin can be used to handle brake light fu
     		},
     }
     ```
+    {% endcode %}
 
     ####
 
@@ -68,5 +80,3 @@ A repair flag can optionally be added for higher poly extras. GTA will set extra
   * `[8] = { repair = true, toggle = { "DSeat" } },`
 
 #### Finished ✅ , configure your personal settings in game under 'Plugins/Extra Integrations' menu.
-
-\

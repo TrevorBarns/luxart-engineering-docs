@@ -1,2 +1,2 @@
-# 🛠 Customize VCFs
+# Customize VCFs
 

@@ -19,6 +19,7 @@ The "extra\_controls" plugin handles specific extra toggling on demand using key
 
     _Example:_
 
+    {% code title="SETTINGS.lua" %}
     ```lua
     CONTROLS = {
     	-- COMBOS = { <list of index/key ID of approved combo-keys> }, 
@@ -27,9 +28,11 @@ The "extra\_controls" plugin handles specific extra toggling on demand using key
     	KEYS = { 187, 188, 189, 190, 20 }  -- ARROW DWN, UP, LFT, RGT, Z
     }
     ```
+    {% endcode %}
 4.  Configure the EXTRA\_CONTROLS table to your liking. \
     _Example:_
 
+    {% code title="SETTINGS.lua" %}
     ```lua
     EXTRA_CONTROLS = {
     	['DEFAULT'] = { 	},	
@@ -47,6 +50,7 @@ The "extra\_controls" plugin handles specific extra toggling on demand using key
     	},
     }
     ```
+    {% endcode %}
 
 {% hint style="warning" %}
 Every default `Combo` and `Key` assignment need to be present at a minimum in the CONTROLS table.

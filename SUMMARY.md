@@ -26,3 +26,5 @@
 * [🔦 Take-downs](share-plugins/take-downs.md)
 * [🎮 Extra Controls](share-plugins/extra-controls.md)
 * [⚡ Extra Integrations](share-plugins/extra-integrations.md)
+* [🔛 Traffic Advisor](share-plugins/traffic-advisor.md)
+* [🚛 Trailer Support](share-plugins/trailer-support.md)

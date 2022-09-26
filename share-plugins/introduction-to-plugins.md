@@ -14,6 +14,22 @@ Plugins are an easy way to add additional functionality Luxart Vehicle Control. 
 [take-downs.md](take-downs.md)
 {% endcontent-ref %}
 
+{% content-ref url="extra-controls.md" %}
+[extra-controls.md](extra-controls.md)
+{% endcontent-ref %}
+
+{% content-ref url="extra-integrations.md" %}
+[extra-integrations.md](extra-integrations.md)
+{% endcontent-ref %}
+
+{% content-ref url="traffic-advisor.md" %}
+[traffic-advisor.md](traffic-advisor.md)
+{% endcontent-ref %}
+
+{% content-ref url="trailer-support.md" %}
+[trailer-support.md](trailer-support.md)
+{% endcontent-ref %}
+
 ### Installation
 
 1. Enable plugin support by setting `plugins_installed` to true located in `lvc/SETTINGS.lua`.
