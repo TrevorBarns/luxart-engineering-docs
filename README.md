@@ -1,5 +1,5 @@
 ---
-description: Free emergency lighting and equipment resources for FiveM.
+description: Free emergency vehicle resources and equipment for FiveM.
 layout: landing
 ---
 
