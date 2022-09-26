@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # 🚔 What is LVC: Fleet?
 
 Luxart Vehicle Control: Fleet is a new separate resource based off of the innovations of [Luxart Vehicle Control v3](https://github.com/TrevorBarns/luxart-vehicle-control/). It introduces more finite control of vehicle profiles by the use of Vehicle Configuration Files, abbreviated VCFs. A vehicle configuration's settings are called **profiles** for LVC and describe all the settings encompassed in the VCF. Vehicles, by use of it's game name, are then assigned approved **profiles.**&#x20;
