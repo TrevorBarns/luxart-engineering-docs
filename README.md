@@ -5,9 +5,7 @@ layout: landing
 
 # Welcome to Luxart Engineering
 
-## Products
-
-### Luxart Vehicle Control: <mark style="color:orange;">Fleet</mark>
+## Luxart Vehicle Control: <mark style="color:orange;">Fleet</mark>
 
 The new an improved latest resource from Luxart Engineering, coming soon!
 
@@ -23,7 +21,7 @@ The new an improved latest resource from Luxart Engineering, coming soon!
 
 {% embed url="https://github.com/TrevorBarns/luxart-vehicle-control-fleet/releases" %}
 
-### Luxart Vehicle Control <mark style="color:red;">v3</mark>
+## Luxart Vehicle Control <mark style="color:red;">v3</mark>
 
 The O.G. modified emergency light and siren controller for FiveM.
 
