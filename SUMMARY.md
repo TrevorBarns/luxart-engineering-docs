@@ -4,15 +4,15 @@
 
 ## Fleet
 
-* [🚔 What is LVC: Fleet?](fleet/what-is-lvc-fleet.md)
-* [📄 Resource Installation](fleet/resource-installation.md)
-* [🛠 Customize VCFs](fleet/customize-vcfs.md)
-* [⚙ Configure Base Settings](fleet/configure-base-settings.md)
+* [🚔 What is LVC: Fleet?](<README (1).md>)
+* [📄 Resource Installation](installation-and-configuration/resource-installation.md)
+* [🛠 Customize VCFs](installation-and-configuration/customize-vcfs.md)
+* [⚙ Configure Base Settings](installation-and-configuration/configure-base-settings.md)
 
 ## v3
 
 * [Resource Installation](v3/resource-installation.md)
-
-***
-
-* [Page 1](page-1.md)
+* [Configure Base Settings](v3/configure-base-settings.md)
+* [Configure Sirens](v3/configure-sirens.md)
+* [Assign Sirens](v3/assign-sirens.md)
+* [Advanced Configuration](v3/advanced-configuration.md)
