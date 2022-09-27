@@ -17,3 +17,8 @@ Luxart Vehicle Control: Fleet is a new separate resource based off of the innova
 <figure><img src=".gitbook/assets/LVC_F Relationships.drawio.svg" alt=""><figcaption><p>LVC:F Relationship Diagram</p></figcaption></figure>
 
 In the above diagram, you can see that LSPD, BCSO, SASP all have approved profiles 1, 2, 3. **This allows the player to select from these three profiles in the LVC:F menu**. Meanwhile, the firetruck and ambulance are assigned individual profiles and will not be able to change profiles.
+
+### Features:
+
+* Custom server/client side siren assignments.
+*

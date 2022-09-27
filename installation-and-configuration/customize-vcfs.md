@@ -4,6 +4,10 @@ description: VCFs contain LVC:F setting for each profile. Customize them to your
 
 # 🛠 Customize VCFs
 
+{% hint style="info" %}
+VCF files use XML file format and must be valid for LVC:F to load them. Parsing errors will be printed to server console on resource start. You can use [xmlvalidation](https://www.xmlvalidation.com/) to check your VCF file for errors.
+{% endhint %}
+
 #### VCFROOT Attributes
 
 ```xml
@@ -23,7 +27,7 @@ _Reserved for future implementation._
 {% endtab %}
 {% endtabs %}
 
-#### HORNS/SIRENS Elements
+#### :loud\_sound:HORNS/SIRENS Elements
 
 `<HORNS>` and `<SIRENS>` are containers that can contain multiple HORN and SIREN elements respectively.
 
@@ -53,7 +57,7 @@ RumblerBank="DLC_SERVERSIDEAUDIO\OISS_SSA_VEHAUD_ETC"
 | Option         | Determines when this tone can be played: 1-Cycle & Button, 2-Cycle Only, 3-Button Only, 4-Disabled. _(optional)_                                                                                                                                          |
 | Fallback       | Determines what siren should be played when using peer override and the other player is using a siren index that is greater than the local players siren count. _e.g. playing 4th siren and the local player only has 3 sirens assigned._ _(Recommended)_ |
 
-#### SIREN\_CONFIG Element
+#### :gear: SIREN\_CONFIG Element
 
 ```xml
 <SIREN_CONFIG>
@@ -80,7 +84,7 @@ RumblerBank="DLC_SERVERSIDEAUDIO\OISS_SSA_VEHAUD_ETC"
 | Peer\_Override  | <p>Override other players siren choice with select profile. <br><em>(Recommend disabled if no server sided sirens are used.)</em></p>      |
 | Rumbler         | <p>Enables rumbler/howler functionality <br><strong>(Requires RumblerString, RumblerRef, RumblerBank to be set.)</strong></p>              |
 
-#### HUD Element
+#### :traffic\_light: HUD Element
 
 ```xml
 <HUD Enabled="true" Backlight_Mode="1"/>
@@ -100,7 +104,7 @@ Default siren controller HUD display state.&#x20;
 {% endtab %}
 {% endtabs %}
 
-#### Audio Element
+#### :sound:Audio Element
 
 ```xml
 <AUDIO>
@@ -137,7 +141,7 @@ Default siren controller HUD display state.&#x20;
 | \*\_Volume                          | SFX volume to be used.                                                                                                                                                                                                            |
 | SCHEME element(s)                   | <p>Name of approved SFX folder(s) as found in <code>/UI/sounds/</code> </p><p>(See <a href="../fleet/resource-installation/advanced-configuration.md#custom-audio-schemes">Advanced Configuration - Custom Audio Schemes</a>)</p> |
 
-#### Menu Element - Permissions
+#### :closed\_lock\_with\_key: Menu Element - Permissions
 
 Each element controls the access to a menu element.
 

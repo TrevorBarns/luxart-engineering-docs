@@ -6,8 +6,7 @@ description: How to assign sirens to vehicles using SIREN_ASSIGNMENTS table in S
 
 ### SIREN\_ASSIGNEMENTS Table
 
-{% code title="SIRENS.lua" %}
-```lua
+```
 SIREN_ASSIGNMENTS = {
 --['<gameName>'] = { <airhorn tone>, <siren tone-1>, <siren tone-2>, ... <siren tone-n> },
 ['DEFAULT'] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, 
@@ -16,7 +15,6 @@ SIREN_ASSIGNMENTS = {
 ['LGUARD'] = { 1, 2, 3, 4, 11 },
 }
 ```
-{% endcode %}
 
 In this table you can add additional vehicles for assignment using the vehicles `<gameName>` exactly as found in `vehicles.meta`. **It is case sensitive**.
 
