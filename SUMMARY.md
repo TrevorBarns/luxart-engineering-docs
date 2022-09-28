@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Luxart Engineering](README.md)
+* [🗺 Product Roadmaps](product-roadmaps.md)
 
 ## Fleet
 
@@ -11,7 +12,6 @@
   * [💻 Advanced Configuration](fleet/resource-installation/advanced-configuration.md)
 * [🎮 In Game Use Guide](fleet/in-game-use-guide/README.md)
   * [LVC:F Menu](fleet/in-game-use-guide/lvc-f-menu.md)
-* [🌟 Roadmaps](fleet/roadmaps.md)
 
 ## v3
 
@@ -19,8 +19,8 @@
   * [Configure Base Settings](v3/resource-installation/configure-base-settings.md)
   * [Configure Sirens](v3/resource-installation/configure-sirens.md)
   * [Assign Sirens](v3/resource-installation/assign-sirens.md)
-  * [Advanced Configuration](v3/resource-installation/advanced-configuration/README.md)
-    * [Server Sided Siren Integration](v3/resource-installation/advanced-configuration/server-sided-siren-integration.md)
+  * [Advanced Configuration](v3/resource-installation/advanced-configuration.md)
+  * [Server Sided Siren Integration](v3/resource-installation/server-sided-siren-integration.md)
 * [❔ FAQ](v3/faq.md)
 
 ## Shared Plugins
