@@ -11,6 +11,7 @@
   * [💻 Advanced Configuration](fleet/resource-installation/advanced-configuration.md)
 * [🎮 In Game Use Guide](fleet/in-game-use-guide/README.md)
   * [LVC:F Menu](fleet/in-game-use-guide/lvc-f-menu.md)
+* [🌟 Roadmap & Known Bugs](fleet/roadmap-and-known-bugs.md)
 
 ## v3
 

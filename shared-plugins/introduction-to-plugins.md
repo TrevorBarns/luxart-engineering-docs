@@ -30,10 +30,12 @@ Plugins are an easy way to add additional functionality Luxart Vehicle Control. 
 [trailer-support.md](trailer-support.md)
 {% endcontent-ref %}
 
+{% hint style="danger" %}
+Plugin-In Support is not yet guaranteed with LVC:Fleet.
+{% endhint %}
+
 ### Installation
 
 1. Enable plugin support by setting `plugins_installed` to true located in `lvc/SETTINGS.lua`.
 2. Copy the desired plugin folder from the release .zip to the PLUGINS folder.
-3. Configure the desired plugin to your liking using `/PLUGINS/XXXXX/SETTINGS.lua`. More information can be found on the desired plugins wiki page.
-
-\
+3. Configure the desired plugin to your liking using `/PLUGINS/XXXXX/SETTINGS.lua`. More information can be found on the desired plugins wiki pag\
