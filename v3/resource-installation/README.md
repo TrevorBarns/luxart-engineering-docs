@@ -2,7 +2,7 @@
 description: Instructions on how to install LVC v3 into your server.
 ---
 
-# ⚙ Resource Installation
+# 📄 Resource Installation
 
 #### Download the latest stable release `Luxart.Vehicle.Control.vX.X.X.zip` (not source code) from [releases](https://github.com/TrevorBarns/luxart-vehicle-control/releases).
 

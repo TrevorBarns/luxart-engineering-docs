@@ -2,7 +2,7 @@
 description: Debugging and advanced configuration functionality.
 ---
 
-# 💻 Advanced Configuration
+# Advanced Configuration
 
 ### Debug Mode
 
