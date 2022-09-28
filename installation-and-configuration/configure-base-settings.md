@@ -111,7 +111,7 @@ Supported Wildcards:
 
 1. LVC checks for vehicle profile matching game name. _e.g._ `['2008fpiu1']`
 2. If not found, attempts wildcard search, meaning wildcards will be used _secondary_ to custom profiles. _e.g._ `['2008fpiu#']`
-3. If not found, attempts a less specific wildcard search, leading and trailing numbers. _e.g._ `['#fpiu#']` _(v3.2.7)_
+3. If not found, attempts a less specific wildcard search, leading and trailing numbers. _e.g._ `['#fpiu#']`
 4. If not found, use default profile. _e.g._ `['DEFAULT']`
 
 _Example_:\
