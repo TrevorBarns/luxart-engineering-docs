@@ -6,7 +6,8 @@ description: How to define siren tones in SIRENS table located in SIRENS.lua.
 
 **Example Sirens Table (w/o server sided sirens)**
 
-```
+{% code title="SIRENS.lua" %}
+```lua
 SIRENS = {
 --[[1]]	  { Name = "Airhorn", 		String = "SIRENS_AIRHORN", 				Ref = 0 }, --1
 --[[2]]	  { Name = "Wail", 		String = "VEHICLES_HORNS_SIREN_1", 			Ref = 0 }, --2
@@ -24,6 +25,7 @@ SIRENS = {
 --[[14]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
 }
 ```
+{% endcode %}
 
 * For most users, **`Name`** is the only field that needs to be modified. It determines the default name for each tone and will be displayed in LVC Menu, these can be generic like "Siren 1, Siren 2, etc." or specific based on departments recommended siren. The end user will be able to change these.
 * For advanced users:

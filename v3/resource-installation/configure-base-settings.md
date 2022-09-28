@@ -4,11 +4,11 @@ description: Configuration of fundamental settings located in SETTINGS.lua.
 
 # Configure Base Settings
 
-#### Default Settings
+### Default Settings
 
 Configure settings to your liking. Items with prefix/postfix 'default' means the end player will be able to modify/override these later.
 
-#### Set a Community&#x20;
+### Set a Community&#x20;
 
 This unique set of characters for your community will be used for profile saving.
 
