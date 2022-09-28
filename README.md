@@ -9,7 +9,7 @@ layout: landing
 
 ## Luxart Vehicle Control: <mark style="color:orange;">Fleet</mark>
 
-The new an improved latest resource from Luxart Engineering, coming soon!
+The new an improved latest resource from Luxart Engineering, **coming soon**!
 
 <figure><img src=".gitbook/assets/luxvehcontrol-fleet-logo-med.png" alt=""><figcaption><p>LVC:F Logo</p></figcaption></figure>
 

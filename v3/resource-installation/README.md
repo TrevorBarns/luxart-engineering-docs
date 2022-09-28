@@ -6,18 +6,19 @@ description: Instructions on how to install LVC v3 into your server.
 
 
 
-Download the latest stable release `Luxart.Vehicle.Control.Fleet.vX.X.X.zip` (not source code) from [releases](https://github.com/TrevorBarns/luxart-vehicle-control-fleet/releases).
+Download the latest stable release `Luxart.Vehicle.Control.vX.X.X.zip` (not source code) from [releases.](https://github.com/TrevorBarns/luxart-vehicle-control/releases)
 
 1. Copy `RageUI` folder from 'dependencies' folder in resources folder.
-2. Copy `lvc_fleet` folder to resources folder.
-3. Add `ensure lvc_fleet` to server.cfg.
+2. Copy `lvc` folder to resources folder.
+3. Add `ensure lvc` to server.cfg.
+4. Install any desired plugins from plugins folder to `lvc/PLUGINS/` (_optional: see_ [_shared plugins_](broken-reference))
 
 {% hint style="warning" %}
 Make sure your resource is named `lvc` it is required.
 {% endhint %}
 
 {% hint style="warning" %}
-LVC utilizes a modified release of RageUI, please install it even if you already have an older version. This release should be backwards compatible, please report any issues and I can resolve them for you.
+LVC utilizes a modified release of RageUI, please install it even if you already have an older version.
 {% endhint %}
 
 {% hint style="info" %}
