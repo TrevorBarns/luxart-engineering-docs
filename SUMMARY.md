@@ -9,7 +9,8 @@
   * [🛠 Customize VCFs](installation-and-configuration/customize-vcfs.md)
   * [⚙ Configure Base Settings](installation-and-configuration/configure-base-settings.md)
   * [💻 Advanced Configuration](fleet/resource-installation/advanced-configuration.md)
-* [🎮 In Game Use Guide](fleet/in-game-use-guide.md)
+* [🎮 In Game Use Guide](fleet/in-game-use-guide/README.md)
+  * [LVC:F Menu](fleet/in-game-use-guide/lvc-f-menu.md)
 
 ## v3
 
