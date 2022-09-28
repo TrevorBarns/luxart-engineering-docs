@@ -17,7 +17,7 @@ description: Instructions on how to install LVC:F into your server
     _Make sure your resource is named `lvc_fleet` it is required._
     {% endhint %}
 3. **Add `ensure lvc_fleet` to server.cfg.**
-4. **(**_**Optional**_**) Install any desired plugins from plugins folder to `lvc/PLUGINS/` (**_**see**_ [_**shared plugins**_](broken-reference)**)**
+4. **(**_**Optional**_**) Install any desired plugins from plugins folder to `lvc_fleet/PLUGINS/` (**_**see**_ [_**shared plugins**_](broken-reference)**)**
 
 {% hint style="info" %}
 This resource utilizes [globbing](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#globbing) which may not be supported in some linux environments. Most releases include `fxmanifest.for.Linux.Servers.no.globbing.zip` which contain a compatible fxmainfest.lua without globbing.
