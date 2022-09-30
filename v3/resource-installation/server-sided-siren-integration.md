@@ -121,3 +121,6 @@ Server Side Audio Tester Github
 
 ### Example Siren Pack
 
+{% embed url="https://github.com/TrevorBarns/luxart-vehicle-control-extras/tree/master/Siren%20Packs/Server%20Sided%20Packs/Mega%20Pack" %}
+Siren Mega Pack (4 police + 1 Fire Rescue Siren)
+{% endembed %}
