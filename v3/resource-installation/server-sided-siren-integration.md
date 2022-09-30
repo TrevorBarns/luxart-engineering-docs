@@ -1,5 +1,5 @@
 ---
-description: Stream custom sirens from the server to
+description: Stream custom sirens from the server to LVCv3
 ---
 
 # Server Sided Siren Integration
@@ -119,4 +119,5 @@ First, to determine if it is a LVC or AWC issue use the Server Side Audio Tester
 Server Side Audio Tester Github
 {% endembed %}
 
-\
+### Example Siren Pack
+
