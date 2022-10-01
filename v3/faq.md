@@ -1,13 +1,13 @@
 ---
-description: Frequently asked question about LVCv3.
+description: Frequently asked question about LVC:v3.
 ---
 
 # ❔ FAQ
 
 ## Frequently Asked Questions
 
-* [**Why is this vehicle still using the default profile even after I created a table in SIRENS\_ASSIGNMENTS?**](https://github.com/TrevorBarns/luxart-vehicle-control/wiki/FAQ#why-is-this-vehicle-still-using-the-default-profile-even-after-i-created-a-table-in-sirens\_assignments)
-* [**How do I fix "SCRIPT ERROR: @lvc/UTIL/cl\_utils.lua:XX bad argument #1 to 'pairs' (table expected, got nil)"?**](https://github.com/TrevorBarns/luxart-vehicle-control/wiki/FAQ#how-do-i-fix-script-error-lvcutilcl\_utilsluaxx-bad-argument-1-to-pairs-table-expected-got-nil)
+* ****[**Why is this vehicle still using the default profile even after I created a table in SIRENS\_ASSIGNMENTS?**](faq.md#why-is-this-vehicle-still-using-the-default-profile-even-after-i-created-a-table-in-sirens\_assignmen)****
+* ****[**How do I fix "SCRIPT ERROR: @lvc/UTIL/cl\_utils.lua:XX bad argument #1 to 'pairs' (table expected, got nil)"?**](faq.md#how-do-i-fix-script-error-lvc-util-cl\_utils.lua-xx-bad-argument-1-to-pairs-table-expected-got-nil)****
 
 ### Why is this vehicle still using the default profile even after I created a table in SIRENS\_ASSIGNMENTS?
 
@@ -15,7 +15,7 @@ The most likely cause for this is the use of an incorrect key in SIRENS\_ASSIGNM
 
 To verify this look at these two methods:
 
-* **In game using LVC**: Enter the car in questions, navigate to 'Storage Management'. The description of the 'Save Profile' button will read "Using DEFAULT profile for "_\<gameName>_". Ensure this matches identically (case-sensitive) to the key as outlined in SIREN\_ASSIGNMENTS.
+* **In game using LVC:v3**: Enter the car in questions, navigate to 'Storage Management'. The description of the 'Save Profile' button will read "Using DEFAULT profile for "_\<gameName>_". Ensure this matches identically (case-sensitive) to the key as outlined in SIREN\_ASSIGNMENTS.
 * **Out of game using `vehicles.meta`**: Locate the `vehicles.meta` file and verify that the vehicle in questions `<gameName>XXXXXXXX</gameName>` = \['XXXXXXXX'] in SIREN\_ASSIGNMENTS.
 
 **The relevant attributes are: **_**left**_**, **_**top**_**, and **_**transform-origin**_**.**

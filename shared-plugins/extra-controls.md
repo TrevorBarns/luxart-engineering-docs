@@ -6,7 +6,7 @@ description: Toggle extras on the fly with hotkeys.
 
 ## Introduction
 
-The "extra\_controls" plugin handles specific extra toggling on demand using key bindings. The allows players the ability to toggle spotlights, light cuts, scene lights conveniently without navigating through existing menus. Controls can be set by default or left disabled, if `allow_custom_controls` is set to true, players can change each control combo and key in game through LVC menu.
+The "extra\_controls" plugin handles specific extra toggling on demand using key bindings. The allows players the ability to toggle spotlights, light cuts, scene lights conveniently without navigating through existing menus. Controls can be set by default or left disabled, if `allow_custom_controls` is set to true, players can change each control combo and key in game through an LVC menu.
 
 <figure><img src="https://camo.githubusercontent.com/7fcb8ee3d541d0287bd197a9724976b482db5083de3260cddecd07ec07e8f71b/68747470733a2f2f692e6779617a6f2e636f6d2f32613235336232383539376631373033336364653633656338643937336165332e6a7067" alt=""><figcaption></figcaption></figure>
 
@@ -90,5 +90,5 @@ A repair flag can optionally be added for higher poly extras. GTA will set extra
 The audio flag determines if the plugin plays a button press soundfx (like heard when toggling siren) when the extra\_control profile is toggled.
 
 {% hint style="success" %}
-Finished, configure your personal settings in game under 'Plugins/Extra Control' menu.
+Finished, configure your personal settings in game under 'Plugins->Extra Control' menu.
 {% endhint %}

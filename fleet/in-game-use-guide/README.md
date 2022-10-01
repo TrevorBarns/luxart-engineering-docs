@@ -1,13 +1,13 @@
 ---
-description: Instructions on how to use LVC:F in game
+description: Instructions on how to use LVC:Fleet in game
 ---
 
 # 🎮 In Game Use Guide
 
 ### In Game Menu Usage
 
-{% content-ref url="lvc-f-menu.md" %}
-[lvc-f-menu.md](lvc-f-menu.md)
+{% content-ref url="lvc-fleet-menu.md" %}
+[lvc-fleet-menu.md](lvc-fleet-menu.md)
 {% endcontent-ref %}
 
 ### Rumbler / Howler Usage

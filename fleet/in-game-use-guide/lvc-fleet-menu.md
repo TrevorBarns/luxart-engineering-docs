@@ -2,13 +2,13 @@
 description: RageUI menu for LVC:F.
 ---
 
-# LVC:F Menu
+# LVC:Fleet Menu
 
 ### Main Menu
 
-The LVC:F menu can be opened by default using `O` as in Oscar this can be changed in [base settings](../../installation-and-configuration/configure-base-settings.md#register-key-maps).&#x20;
+The LVC:Fleet menu can be opened by default using `O` as in Oscar this can be changed in [base settings](../../installation-and-configuration/configure-base-settings.md#register-key-maps).&#x20;
 
-<figure><img src="../../.gitbook/assets/VPBTwyT.png" alt=""><figcaption><p>LVC:F RageUI Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VPBTwyT.png" alt=""><figcaption><p>LVC:Fleet RageUI Menu</p></figcaption></figure>
 
 #### Profile
 
@@ -114,11 +114,11 @@ Allows for changing of sound effect volumes via slider. Pressing enter on a volu
 
 #### Save Settings
 
-Save LVC:F configuration and selected profile to players PC by the use of KVPs. On the right side of this button you can see the detected profile name in parenthesis, in this example 'LAPD'.
+Save LVC:Fleet configuration and selected profile to players PC by the use of KVPs. On the right side of this button you can see the detected profile name in parenthesis, in this example 'LAPD'.
 
 #### Load Settings
 
-Load LVC:F configuration and attempt to select the saved profile, if approved. On the right side of this button you can see the detected profile name in parenthesis, in this example 'LAPD'.
+Load LVC:Fleet configuration and attempt to select the saved profile, if approved. On the right side of this button you can see the detected profile name in parenthesis, in this example 'LAPD'.
 
 #### Copy Settings
 
@@ -126,8 +126,8 @@ Using this menu, players can copy configurations from other profiles if both pro
 
 #### Reset Settings
 
-Reverts LVC:F configuration to its default settings as outlined in the VCF. Useful for debugging.
+Reverts LVC:Fleet configuration to its default settings as outlined in the VCF. Useful for debugging.
 
 #### Factory Reset
 
-Deletes all LVC:F saves and resets LVC:F configuration to its default settings as outlined in VCF. Useful for debugging.
+Deletes all LVC:Fleet saves and resets LVC:Fleet configuration to its default settings as outlined in VCF. Useful for debugging.

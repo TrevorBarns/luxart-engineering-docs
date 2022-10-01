@@ -23,7 +23,7 @@ The purpose of this string is to differentiate the client side saves between ser
 {% endhint %}
 
 {% hint style="warning" %}
-This string should be set once, and never changed as it will result in loss of LVC saves for all players. It is not public facing so even if the server name changes it does not need to change.
+This string should be set once, and never changed as it will result in loss of LVC:v3 saves for all players. It is not public facing so even if the server name changes it does not need to change.
 {% endhint %}
 
 ### Configure Controls
@@ -34,8 +34,8 @@ Users may change these in their GTA V > Settings > Hotkeys > FiveM settings. \
 More info: [CFX Cookbook - How RegisterKeyMappings Work](https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/)\
 List of Keys**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
 
-`open_menu_key`: sets default key for opening LVC:F Menu.\
-`lockout_default_key`: sets default key for toggling LVC:F control lock, which disabled all LVC:F controls.
+`open_menu_key`: sets default key for opening LVC:v3 Menu.\
+`lockout_default_key`: sets default key for toggling LVC:v3 control lock, which disabled all controls.
 
 ****
 

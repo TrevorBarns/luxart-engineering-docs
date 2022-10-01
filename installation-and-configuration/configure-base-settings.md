@@ -26,8 +26,8 @@ Users may change these in their GTA V > Settings > Hotkeys > FiveM settings. \
 More info: [CFX Cookbook - How RegisterKeyMappings Work](https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/)\
 List of Keys**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
 
-`open_menu_key`: sets default key for opening LVC:F Menu.\
-`lockout_default_key`: sets default key for toggling LVC:F control lock, which disabled all LVC:F controls.
+`open_menu_key`: sets default key for opening LVC:Fleet Menu.\
+`lockout_default_key`: sets default key for toggling LVC:Fleet control lock, which disabled all controls.
 
 ****
 
@@ -64,7 +64,7 @@ VCF_Assignments = {
 
 ### VCF\_Files
 
-Table of VCF file names to be loaded on resource start. These should be locate in `/VCF/` directory. VCF Files represent profiles and contain all of LVC:F's settings for that profile.
+Table of VCF file names to be loaded on resource start. These should be locate in `/VCF/` directory. VCF Files represent profiles and contain all of LVC:Fleet's settings for that profile.
 
 {% hint style="info" %}
 To load newly installed VCF files, run `refresh` then `restart lvc_fleet`.
@@ -95,7 +95,7 @@ On the right side of the key, `{ 1, 2, 3 }`, for example, are the index's of the
 Both R\* and LVC truncate down to 11 characters. **It is important that the first 11 characters of the vehicle game name are unique.**
 
 * **Example**:\
-  If my addon vehicles `<gameName>` is "_2008 Ford CVPI CHP_" and I have another vehicle "_2008 Ford CVPI LSPD_" both of these after truncate equate to "_2008 Ford C_" therefor LVC:F will not be able to differentiate these.&#x20;
+  If my addon vehicles `<gameName>` is "_2008 Ford CVPI CHP_" and I have another vehicle "_2008 Ford CVPI LSPD_" both of these after truncate equate to "_2008 Ford C_" therefor LVC:Fleet will not be able to differentiate these.&#x20;
 
 {% hint style="danger" %}
 **The default or fallback key `['DEFAULT']` in the VCF\_Assignements table should always be present and never removed. Doing so will result in issues.**

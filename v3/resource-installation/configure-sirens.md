@@ -27,7 +27,7 @@ SIRENS = {
 ```
 {% endcode %}
 
-* For most users, **`Name`** is the only field that needs to be modified. It determines the default name for each tone and will be displayed in LVC Menu, these can be generic like "Siren 1, Siren 2, etc." or specific based on departments recommended siren. The end user will be able to change these.
+* For most users, **`Name`** is the only field that needs to be modified. It determines the default name for each tone and will be displayed in LVC:v3 Menu, these can be generic like "Siren 1, Siren 2, etc." or specific based on departments recommended siren. The end user will be able to change these.
 * For advanced users:
   * **`String`** and **`Ref`** can be changed to change which audio file is pulled based on tone. Rearranging default resident.rpf names is not recommended as it serves no benefit. Instead rearranging the siren assignments order would be easier. The only time changing `String` and `Ref` would be recommended is for integration of server side siren integration. See [Server Sided Audio Integration](https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Server-Sided-Audio-Integration).
   *   **`Option`** an additional key can be added to each tones table determines the default option state that each tone is in. The end user can change these later.\

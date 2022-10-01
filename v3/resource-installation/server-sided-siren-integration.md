@@ -1,5 +1,5 @@
 ---
-description: Stream custom sirens from the server to LVCv3
+description: Stream custom sirens from the server to LVC:v3
 ---
 
 # Server Sided Siren Integration

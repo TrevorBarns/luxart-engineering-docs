@@ -1,5 +1,5 @@
 ---
-description: Instructions on how to install LVC:F into your server
+description: Instructions on how to install LVC:Fleet into your server
 ---
 
 # 📄 Resource Installation

@@ -1,5 +1,5 @@
 ---
-description: Instructions on how to install LVC v3 into your server.
+description: Instructions on how to install LVC:v3 into your server.
 ---
 
 # 📄 Resource Installation

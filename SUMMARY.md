@@ -6,13 +6,13 @@
 
 ## Fleet
 
-* [🚔 What is LVC: Fleet?](<README (1).md>)
+* [🚔 What is LVC:Fleet?](<README (1).md>)
 * [📄 Resource Installation](installation-and-configuration/resource-installation.md)
   * [🛠 Customize VCFs](installation-and-configuration/customize-vcfs.md)
   * [⚙ Configure Base Settings](installation-and-configuration/configure-base-settings.md)
   * [💻 Advanced Configuration](fleet/resource-installation/advanced-configuration.md)
 * [🎮 In Game Use Guide](fleet/in-game-use-guide/README.md)
-  * [LVC:F Menu](fleet/in-game-use-guide/lvc-f-menu.md)
+  * [LVC:Fleet Menu](fleet/in-game-use-guide/lvc-fleet-menu.md)
 
 ## v3
 

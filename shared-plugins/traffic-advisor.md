@@ -8,7 +8,7 @@ description: Quickly toggle rear traffic advisor patterns at the press of a butt
 
 The "traffic\_advisor" plugin is designed for extra toggling in order to activate certain rear traffic advisory lights. It works by placing light meshes under certain extras then toggling those extras to reveal or hide certain sirens.
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **This requires the vehicle to already have working Traffic Advisor extras! LVC does not add a traffic advisor to vehicle which do not already have one.**
 {% endhint %}
 

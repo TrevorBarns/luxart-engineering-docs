@@ -40,5 +40,5 @@ TRAILERS = {
 * **State:** Should the extra be on or off when toggled. This ensures that regardless of the vehicle spawn state or current extra state LVC will track and toggle extras.
 
 {% hint style="success" %}
-Finished, test it out in game under the 'PLUGINS/Trailer Support' menu.
+Finished, test it out in game under the 'Plugins->Trailer Support' menu.
 {% endhint %}

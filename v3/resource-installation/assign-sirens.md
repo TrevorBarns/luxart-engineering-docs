@@ -36,9 +36,9 @@ In this table you can add additional vehicles for assignment using the vehicles 
 
 </details>
 
-* Both R\* and LVC truncate down to 11 characters. **It is important that the first 11 characters are unique.**
+* Both R\* and LVC:v3 truncate down to 11 characters. **It is important that the first 11 characters are unique.**
   * **Example**:\
-    If my addon vehicles `<gameName>` is "_2008 Ford CVPI CHP_" and I have another vehicle "_2008 Ford CVPI LSPD_" both of these after truncate equate to "_2008 Ford C_" therefor LVC will not be able to differentiate these.&#x20;
+    If my addon vehicles `<gameName>` is "_2008 Ford CVPI CHP_" and I have another vehicle "_2008 Ford CVPI LSPD_" both of these after truncate equate to "_2008 Ford C_" therefor LVC:v3 will not be able to differentiate these.&#x20;
 
 {% hint style="danger" %}
 **The default or fallback key `['DEFAULT']` should always be present and never removed. Doing so will result in issues.**
@@ -52,7 +52,7 @@ Supported Wildcards:
 
 #### How it works:
 
-1. LVC checks for vehicle profile matching game name. _e.g._ `['2008fpiu1']`
+1. LVC:v3 checks for vehicle profile matching game name. _e.g._ `['2008fpiu1']`
 2. If not found, attempts wildcard search, meaning wildcards will be used _secondary_ to custom profiles. _e.g._ `['2008fpiu#']`
 3. If not found, attempts a less specific wildcard search, leading and trailing numbers. _e.g._ `['#fpiu#']` _(v3.2.7)_
 4. If not found, use default profile. _e.g._ `['DEFAULT']`
@@ -61,5 +61,5 @@ _Example_:\
 \* `['veh#'] = { ... }` will be used for vehicles with game names `veh1`, `veh2`, ..., `veh9999`, etc. where exact profile not found.
 
 {% hint style="info" %}
-Examples and premade packs can be found here: [LVC Extras](https://github.com/TrevorBarns/luxart-vehicle-control-extras/)
+Examples and premade packs can be found here: [LVC:v3 Extras](https://github.com/TrevorBarns/luxart-vehicle-control-extras/).
 {% endhint %}

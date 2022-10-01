@@ -1,11 +1,13 @@
 ---
-description: VCFs contain LVC:F setting for each profile. Customize them to your desire.
+description: >-
+  VCFs contain LVC:Fleet setting for each profile. Customize them to your
+  desire.
 ---
 
 # 🛠 Customize VCFs
 
 {% hint style="info" %}
-VCF files use XML file format and must be valid for LVC:F to load them. Parsing errors will be printed to server console on resource start. You can use [xmlvalidation](https://www.xmlvalidation.com/) to check your VCF file for errors.
+VCF files use XML file format and must be valid for LVC:Fleet to load them. Parsing errors will be printed to server console on resource start. You can use [xmlvalidation](https://www.xmlvalidation.com/) to check your VCF file for errors.
 {% endhint %}
 
 VCF files should be placed in `/VCF/` folder see [Assign Profiles](configure-base-settings.md#assign-profiles) on how to assign them to specific vehicles.
