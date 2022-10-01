@@ -79,4 +79,6 @@ A repair flag can optionally be added for higher poly extras. GTA will set extra
   * `[7] = { repair = true, toggle = { "Takedowns", "AirHorn" } },`
   * `[8] = { repair = true, toggle = { "DSeat" } },`
 
-#### Finished ✅ , configure your personal settings in game under 'Plugins/Extra Integrations' menu.
+{% hint style="success" %}
+#### Finished , configure your personal settings in game under 'Plugins/Extra Integrations' menu.
+{% endhint %}
