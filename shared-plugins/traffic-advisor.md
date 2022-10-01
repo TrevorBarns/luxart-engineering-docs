@@ -59,4 +59,6 @@ A repair flag can optionally be added for higher poly extras. GTA will set extra
   * `on = { add = 1, remove = {}, repair = true }`
   * `on = { add = { 5 }, remove = { 6 }, repair = true }`
 
-#### Finished ✅
+{% hint style="success" %}
+Finished, test your new traffic advisor integration in game.
+{% endhint %}

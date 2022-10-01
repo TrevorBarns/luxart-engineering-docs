@@ -39,4 +39,6 @@ TRAILERS = {
 * **Extra ID:** The extra ID intended to be toggled. This currently only allows a single extra ID, in the future it may allow for more.
 * **State:** Should the extra be on or off when toggled. This ensures that regardless of the vehicle spawn state or current extra state LVC will track and toggle extras.
 
-#### Finished ✅ , test it out in game under the 'PLUGINS/Trailer Support' menu.
+{% hint style="success" %}
+Finished, test it out in game under the 'PLUGINS/Trailer Support' menu.
+{% endhint %}

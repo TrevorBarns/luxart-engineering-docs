@@ -28,6 +28,7 @@ It works by using CFX native [DrawSpotlight(...)](https://runtime.fivem.net/doc/
     |        `tkd_falloff_default`       | Sets default distance that the light begins to dim due to distance.                                                                  | 0-2000           |        Default Falloff        |   1000  |
     |          `tkd_sync_radius`         | Distance at which take-downs are synced to other users. ⚠️ This has extreme implications on performance, 400 or less is recommended. | 0-10500          |          Sync Radius          |   400   |
     | `tkd_highbeam_integration_default` | Sets default state for high-beam integration.                                                                                        | 1-3              | Default High-Beam Integration |    2    |
-3. Finished ✅ , configure your personal settings in game under in-game 'PLUGINS/Takedowns' menu.
 
-\
+{% hint style="success" %}
+Finished, configure your personal settings in game under in-game 'PLUGINS/Takedowns' menu.
+{% endhint %}

@@ -89,4 +89,6 @@ A repair flag can optionally be added for higher poly extras. GTA will set extra
 
 The audio flag determines if the plugin plays a button press soundfx (like heard when toggling siren) when the extra\_control profile is toggled.
 
-#### Finished ✅ , configure your personal settings in game under 'Plugins/Extra Control' menu.
+{% hint style="success" %}
+Finished, configure your personal settings in game under 'Plugins/Extra Control' menu.
+{% endhint %}
