@@ -4,11 +4,13 @@ description: Instructions on how to use LVC:F in game
 
 # 🎮 In Game Use Guide
 
+### In Game Menu Usage
+
 {% content-ref url="lvc-f-menu.md" %}
 [lvc-f-menu.md](lvc-f-menu.md)
 {% endcontent-ref %}
 
-### How to use Rumbler / Howler?
+### Rumbler / Howler Usage
 
 #### Prerequisites
 
