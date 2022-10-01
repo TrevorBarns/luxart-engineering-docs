@@ -10,11 +10,12 @@ To temporarily toggle _debug mode_ use chat command `/lvcdebug` this resets on r
 
 ### **Resource Convars (fxmanifest.lua)**
 
+* `beta_checking` enables beta version notifications to server console.
 * `experimental` will mute experimental messages for server console.
 * `debug_mode` increases console logging for client, prints \<gameName> of vehicle if no profile was found.
 
 {% hint style="info" %}
-Toggling these require the `refresh` command to be ran first, then restart the resource for changes to take effect.
+Changing covars require the `refresh` command to be ran first, then restart the resource for changes to take effect.
 {% endhint %}
 
 ### Custom HUD
