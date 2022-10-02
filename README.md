@@ -31,4 +31,8 @@ The O.G. modified emergency light and siren controller for FiveM.
 
 {% embed url="https://forum.cfx.re/t/luxart-vehicle-control-v3/4436673/1" %}
 
+{% content-ref url="v3/resource-installation/" %}
+[resource-installation](v3/resource-installation/)
+{% endcontent-ref %}
+
 {% embed url="https://github.com/TrevorBarns/luxart-vehicle-control/releases" %}
