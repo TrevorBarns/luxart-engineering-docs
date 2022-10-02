@@ -22,3 +22,7 @@ description: Instructions on how to install LVC:v3 into your server.
 {% hint style="info" %}
 This resource utilizes [globbing](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#globbing) which may not be supported in some linux environments. Most releases include `fxmanifest.for.Linux.Servers.no.globbing.zip` which contain a compatible fxmainfest.lua without globbing.
 {% endhint %}
+
+{% hint style="info" %}
+If you are updating make sure to run `refresh` before restarting LVC:v3, this ensures new files that were added will be loaded.
+{% endhint %}
