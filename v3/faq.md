@@ -15,14 +15,9 @@ The most likely cause for this is the use of an incorrect key in SIRENS\_ASSIGNM
 
 To verify this look at these two methods:
 
-* **In game using LVC:v3**: Enter the car in questions, navigate to 'Storage Management'. The description of the 'Save Profile' button will read "Using DEFAULT profile for "_\<gameName>_". Ensure this matches identically (case-sensitive) to the key as outlined in SIREN\_ASSIGNMENTS.
+* **In game using LVC debug:** Enter the car in question, use command `/lvcdebug` this will display a notification with the gameName and log other useful information to the F8 console.
+* **In game using menu**: Enter the car in questions, navigate to 'Storage Management'. The description of the 'Save Profile' button will read "Using DEFAULT profile for "_\<gameName>_". Ensure this matches identically (case-sensitive) to the key as outlined in SIREN\_ASSIGNMENTS.
 * **Out of game using `vehicles.meta`**: Locate the `vehicles.meta` file and verify that the vehicle in questions `<gameName>XXXXXXXX</gameName>` = \['XXXXXXXX'] in SIREN\_ASSIGNMENTS.
-
-**The relevant attributes are: **_**left**_**, **_**top**_**, and **_**transform-origin**_**.**
-
-* _left_ determines how far in percentage of the screen resolution should the HUD be placed from the left edge. If you wanted to right align the HUD you could change this to `right: XX%`, 0% being against the right edge of the display.
-* _top_ determines how far down from the top the HUD should be placed.
-* _transform-origin_ attribute determines which way the HUD should expand on size adjustment. For a bottom right aligned HUD you would want the transform-origin to be `right bottom`. This ensures that the HUD does not expand outside of the screen space.
 
 ### How do I fix "SCRIPT ERROR: @lvc/UTIL/cl\_utils.lua:XX bad argument #1 to 'pairs' (table expected, got nil)"?
 
