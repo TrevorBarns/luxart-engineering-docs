@@ -10,6 +10,7 @@ To temporarily toggle _debug mode_ use chat command `/lvcdebug` this resets on r
 
 ### **Resource Convars (fxmanifest.lua)**
 
+* `beta_checking` enables beta version notifications to server console.
 * `experimental` will mute experimental messages for server console.
 * `debug_mode` increases console logging for client, prints \<gameName> of vehicle if no profile was found.
 
@@ -45,6 +46,12 @@ All HUD related functions/code is located in the UI folder. The default position
 	background-image: url("../textures/background.png");
 }
 ```
+
+**The relevant attributes are: **_**left**_**, **_**top**_**, and **_**transform-origin**_**.**
+
+* _left_ determines how far in percentage of the screen resolution should the HUD be placed from the left edge. If you wanted to right align the HUD you could change this to `right: XX%`, 0% being against the right edge of the display.
+* _top_ determines how far down from the top the HUD should be placed.
+* _transform-origin_ attribute determines which way the HUD should expand on size adjustment. For a bottom right aligned HUD you would want the transform-origin to be `right bottom`. This ensures that the HUD does not expand outside of the screen space.
 
 ### Custom Audio Schemes
 
