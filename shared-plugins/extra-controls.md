@@ -62,23 +62,27 @@ Every default `Combo` and `Key` assignment need to be present at a minimum in th
 
 A toggle key will toggle a single extra on trigger or multiple extra if a table is passed in.
 
-* Single Example: `Brake = { toggle = 1 }`
-* Multiple Example: `Brake = { toggle = { 1, 2, 3, ... n } }`
+* Single Example: \
+  `{ Name = 'Test', Extras = { toggle = 4 }, Combo = 155, Key = 20 }`&#x20;
+* Multiple Example: \
+  `{ Name = 'Test', Extras = {` toggle`= { 4, 5 } }, Combo = 155, Key = 20 }`&#x20;
 
 #### **Add & Remove**
 
 An add and remove key will add the passed extra(s) on trigger and remove passed extras(s) on trigger. When the control is pressed again, the behavior will reverse adding the removed extra(s) and removing the added extra(s).
 
-* Single Example: `Brake = { add = 1, remove = 2 }`
-* Multiple Example: `Brake = { add = { 1, 3 }, remove = { 2, 4 } }`
+* Single Example: \
+  \``{ Name = 'Test', Extras = { add = 4, remove = 5 }, Combo = 155, Key = 20}`&#x20;
+* Multiple Example: \
+  `{ Name = 'Cruise', Extras = { add = { 4, 8 }, remove = { 5, 9 }, Combo = 155, Key = 20}`
 
 #### **Repair Flag**
 
 A repair flag can optionally be added for higher poly extras. GTA will set extras of low poly items without repairing the vehicle, however for things like spotlights, lightbars, etc. the repair flag may need to be set. By default `repair` is set to disabled, to override add `repair = true` somewhere inside the desired trigger table.
 
 * Examples:
-  * `Brake = { toggle = 1, repair = true }`
-  * `Takedowns = { add = { 5 }, remove = { 6 }, repair = true }`
+  * `{ Name = 'Test', Extras = { toggle = 4, repair = true }, Combo = 155, Key = 20 }`
+  * `{ Name = 'Cruise', Extras = { add = { 5 }, remove = { 6 }, repair = true }, Combo = 155, Key = 20 }`
 
 #### Controls
 
