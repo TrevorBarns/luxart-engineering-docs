@@ -28,7 +28,7 @@ ESX
 ```lua
 RegisterNetEvent('lvc:UpdateThirdParty')
 AddEventHandler('lvc:UpdateThirdParty', function(update_data)
-    local siren_tone =update_data[state_lxsiren] 
+    local siren_tone = update_data[state_lxsiren] 
     if siren_tone > 0 then
         --Sirens on do something...
     end
