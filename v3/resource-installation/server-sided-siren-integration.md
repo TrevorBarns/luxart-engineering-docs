@@ -4,6 +4,8 @@ description: Stream custom sirens from the server to LVC:v3
 
 # Server Sided Siren Integration
 
+{% embed url="https://www.youtube.com/watch?v=KSEyeDQf5VQ" %}
+
 ### Introduction
 
 Below are two third-party resources that allow for streaming of R\* audio files from server to client. These audio files can be for various things but some people use them for sirens.
