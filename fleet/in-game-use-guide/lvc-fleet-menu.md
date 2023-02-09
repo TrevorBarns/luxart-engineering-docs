@@ -66,7 +66,7 @@ Toggle on screen siren controller HUD.
 
 #### Move Mode
 
-Selecting this enable NUI cursor, drag-and-drop the HUD to your desired location. Pressing right-click, Esc, Spacebar will exit move mode and save the HUDs location.
+Selecting this enables NUI cursor, drag-and-drop the HUD to your desired location. Pressing right-click, Esc, Spacebar will exit move mode and save the HUDs location.
 
 #### Scale
 
