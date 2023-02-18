@@ -40,3 +40,10 @@ The O.G. modified emergency light and siren controller for FiveM.
 ## Luxart Pro Laser 4
 
 LiDAR / Radar gun resource for FiveM.
+
+{% content-ref url="pro-laser-4/resource-installation.md" %}
+[resource-installation.md](pro-laser-4/resource-installation.md)
+{% endcontent-ref %}
+
+{% embed url="https://github.com/TrevorBarns/ProLaser4/releases" %}
+
