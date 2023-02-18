@@ -36,3 +36,7 @@ The O.G. modified emergency light and siren controller for FiveM.
 {% endcontent-ref %}
 
 {% embed url="https://github.com/TrevorBarns/luxart-vehicle-control/releases" %}
+
+## Luxart Pro Laser 4
+
+LiDAR / Radar gun resource for FiveM.
