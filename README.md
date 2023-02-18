@@ -1,5 +1,5 @@
 ---
-description: Free emergency vehicle resources and equipment for FiveM.
+description: Free law enforcement resources for FiveM.
 cover: .gitbook/assets/Desktop Screenshot 2020.08.03 - 16.36.07.67 - Copy.jpg
 coverY: -35.90320293144757
 layout: landing
