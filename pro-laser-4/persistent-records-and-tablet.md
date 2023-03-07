@@ -8,7 +8,7 @@ description: How to set up ProLaser4 to work with SQL database.
 
 By default, Pro Laser 4 will store the last 100 clocks to the clients machine, which will be restored on relog.&#x20;
 
-The section below describes a centralized database for tracking clocks server side. Notice: records push to the database intermittently as follows. Players submit all records to server every minute, then the server pushes those records to database every 5 minutes.
+The section below describes a centralized database for tracking clocks server side.&#x20;
 
 ### Dependencies
 
