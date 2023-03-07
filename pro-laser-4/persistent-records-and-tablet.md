@@ -71,3 +71,17 @@ AUTO_INCREMENT=0;
 ### Logging Configuration
 
 Configure logging settings in `config.lua`. Then use `/lidarrecords` in game to open the tablet and review records.
+
+**Uncomment these two oxmysql lines from fxmanifest:**
+
+<pre class="language-lua"><code class="lang-lua"><strong>...
+</strong><strong>dependencies {
+</strong>     'oxmysql',		-- uncomment for persistent records &#x26; record management tablet. See docs and configs.
+}
+...
+server_scripts {
+     '@oxmysql/lib/MySQL.lua', -- uncomment for persistent records &#x26; record management tablet. See docs and configs.
+	'UTIL/sv_*.lua',
+	'UTIL/semver.lua'
+}
+</code></pre>
