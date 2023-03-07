@@ -18,5 +18,5 @@ If you stream vintage pistol or it's associated metas in another resource, Pro L
 {% hint style="warning" %}
 #### Streamed Weapon Wheel Textures
 
-If you stream custom weapon wheel textures in another resource and would like to use the custom lidar weapon image, you'll need to edit `weapons_dlc_bb.png` in `UI` folder.
+If you stream custom weapon wheel textures in another resource and would like to use the custom lidar weapon image, you'll need to edit `weapons_dlc_bb.png` in the`UI` folder.
 {% endhint %}

@@ -30,8 +30,8 @@ description: Instructions on how to use Pro Laser 4 in game.
 
 `/lidarweapon` adds Pro Laser 4 weapon to ped (vintage pistol).
 
-If logging is enabled:\
-`/lidarrecords` opens records tablet to view previous clock data.
+**If logging is enabled:**\
+****`/lidarrecords` opens records tablet to view previous clock data.
 
 ### Interface Guide
 
@@ -62,4 +62,10 @@ Every entity clocked will be added to the recalled events menu. If the clocked e
 }
 </code></pre>
 
-The recalled events menu can be navigated by pressing or holding `LEFT ARROW` or `RIGHT ARROW`. Holding either of these for 5 seconds will “fast-scroll” through the events. To close the recalled events menu navigate to the 1st record indicated by 1 in the top left corner and hit `LEFT ARROW` again. Recalled event data is saved every 5 minutes (if new data is present) and loaded on join.
+The recalled events menu can be navigated by pressing or holding `LEFT ARROW` or `RIGHT ARROW`. Holding either of these for 5 seconds will “fast-scroll” through the events. To close the recalled events menu navigate to the 1st record indicated by 1 in the top left corner and hit `LEFT ARROW` again. Recalled event data is saved every minute (if new data is present) and loaded on join.
+
+### Records Tablet
+
+If [persistent-records-and-tablet.md](persistent-records-and-tablet.md "mention") has been setup, then players in-game can review all players past clocks in accordance with logging settings in `config.lua`. The records tablet is a simulated tablet/laptop application that can retrieve all players previous clocks. It also allows printing clock data which includes information about the lidar gun, it's self-test state, and more.
+
+Users clocks are submitted to the server every minute, if any are pending. All records waiting server side are inserted to the database every 5 minutes. As such, the records tablet can have a delay of up to 6 minutes.
