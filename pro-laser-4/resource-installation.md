@@ -20,7 +20,7 @@ If you stream vintage pistol or it's associated metas in another resource, Pro L
 {% endhint %}
 
 {% hint style="warning" %}
-#### Streamed HUD.ytd
+#### Streamed Weapon Wheel Textures
 
-If you stream `hud.ytd` textures in another resource you will need to replace them or modify them if you would like to use new LIDAR weapon HUD icon or artificial reticle when in vehicles.
+If you stream custom weapon wheel textures in another resource and would like to use the custom lidar weapon image, you'll need to edit `weapons_dlc_bb.png` in `UI` folder.
 {% endhint %}

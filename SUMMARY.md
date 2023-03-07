@@ -36,4 +36,5 @@
 ## Pro Laser 4
 
 * [📄 Resource Installation](pro-laser-4/resource-installation.md)
+* [💾 Persistent Records & Tablet](pro-laser-4/persistent-records-and-tablet.md)
 * [🎮 In Game Use Guide](pro-laser-4/in-game-use-guide.md)

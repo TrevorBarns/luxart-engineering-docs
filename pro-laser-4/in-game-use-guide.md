@@ -30,6 +30,9 @@ description: Instructions on how to use Pro Laser 4 in game.
 
 `/lidarweapon` adds Pro Laser 4 weapon to ped (vintage pistol).
 
+If logging is enabled:\
+`/lidarrecords` opens records tablet to view previous clock data.
+
 ### Interface Guide
 
 <figure><img src="https://lh5.googleusercontent.com/IKc4RDxnGnMk7fPz1V__YQdSN_Cb4L88x0K69px-3UFAgnv3QTRAkRyySe9L7LzuolK95gWqCzn9ifgbJbidzkj_tpXYeHNkX9JvdVcKVCPgOP97VGDMM9c8sJSpbi46LrUfA6SU0We5wbeM0A-jLzQ" alt=""><figcaption><p>Speed - Range Display / Home</p></figcaption></figure>
