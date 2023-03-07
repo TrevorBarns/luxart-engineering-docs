@@ -9,10 +9,6 @@ description: Instructions on how to install Pro Laser 4 into your server.
 1. **Copy `ProLaser4` to resources folder.**
 2. **Add `ensure ProLaser4`to server.cfg.**
 
-{% hint style="info" %}
-This resource utilizes [globbing](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#globbing) which may not be supported in some linux environments. Most releases include `fxmanifest.for.Linux.Servers.no.globbing.zip` which contain a compatible fxmainfest.lua without globbing.
-{% endhint %}
-
 {% hint style="warning" %}
 #### &#x20;Streamed Weapon & Weapons Meta
 
