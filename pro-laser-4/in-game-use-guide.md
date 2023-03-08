@@ -69,3 +69,9 @@ The recalled events menu can be navigated by pressing or holding `LEFT ARROW` or
 If [persistent-records-and-tablet.md](persistent-records-and-tablet.md "mention") has been setup, then players in-game can review all players past clocks in accordance with logging settings in `config.lua`. The records tablet is a simulated tablet/laptop application that can retrieve all players previous clocks. It also allows printing clock data which includes information about the lidar gun, it's self-test state, and more.
 
 Users clocks are submitted to the server every minute, if any are pending. All records waiting server side are inserted to the database every 5 minutes. As such, the records tablet can have a delay of up to 6 minutes.
+
+<figure><img src="../.gitbook/assets/FiveM_b2699_GTAProcess_e2bSiHJO1X.png" alt=""><figcaption><p>Records Tablet Main Screen</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/FiveM_b2699_GTAProcess_AyWVo9vyVj.png" alt=""><figcaption><p>Print Preview</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/FiveM_b2699_GTAProcess_2m0rKuROZM.png" alt=""><figcaption><p>Print To Image</p></figcaption></figure>
