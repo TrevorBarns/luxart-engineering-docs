@@ -76,15 +76,42 @@ To do this add an attribute to the associated menu item you would like to limit 
 ```xml
 <MENU>
 	<Menu_Access Enabled='true'/>
-	<Menu_Main_Siren_Settings Enabled="true"/>
+	...
 	<Toggle_Peer_Override Enabled="true" Permissions="true"/>	
 	<Toggle_Local_Override Enabled="true" Permissions="true"/>
-	<Toggle_Airhorn_Intrp Enabled="true"/>
 	...
 	<Menu_Plugins Enabled="true"/>
 </MENU>
 ```
 
-In the example above, we've added `Permissions="true"` after the enable attribute. It is important to note that the `Enabled` attribute must be true, it acts as an end-all-be-all switch. Permissions can be added to any of the `<MENU>` elements.
+In the example above, we've added `Permissions="true"` after the enable attribute. It is important to note that the `Enabled` attribute must be true, it acts as an end-all-be-all switch. Permissions can be added to any of the `<MENU>` elements, and are optional so you only need to add this attribute to the menu items you wish to limit access to.
 
-#### Ad
+#### Add Ace Config / Permissions Lines
+
+```actionscript
+add_ace builtin.everyone "LVC:Fleet.menu_access" allow
+add_ace builtin.everyone "LVC:Fleet.menu_main_siren_settings" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_peer_override" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_local_override" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_airhorn_intrp" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_reset_standby" allow
+add_ace builtin.everyone "LVC:Fleet.custom_tone_options" allow
+add_ace builtin.everyone "LVC:Fleet.custom_manual" allow
+add_ace builtin.everyone "LVC:Fleet.custom_auxiliary" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_park_kill" allow
+add_ace builtin.everyone "LVC:Fleet.menu_hud_settings" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_hud" allow
+add_ace builtin.everyone "LVC:Fleet.custom_backlight_mode" allow
+add_ace builtin.everyone "LVC:Fleet.menu_audio_settings" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_radio" allow
+add_ace builtin.everyone "LVC:Fleet.custom_scheme" allow
+add_ace builtin.everyone "LVC:Fleet.toggle_clicks" allow
+add_ace builtin.everyone "LVC:Fleet.custom_activity_reminder" allow
+add_ace builtin.everyone "LVC:Fleet.menu_plugins" allow
+```
+
+Change the `builtin.everyone` to the ace group you'd like to authorize, just like any other resource.
+
+{% hint style="info" %}
+`Menu_Access` in both VCF and ace permissions controls the menu as a whole, so you don't need to add every menu item if you intend on disabling the menu entirely.
+{% endhint %}
