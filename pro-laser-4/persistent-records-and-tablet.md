@@ -25,9 +25,14 @@ If you do not have an existing database you'd like to use, you can create one, s
 
 {% code overflow="wrap" %}
 ```bash
-set mysql_connection_string "server=localhost;user=USERNAME;password=PASSWORDdatabase=resources;charset=utf8mb4
+set mysql_connection_string "server=localhost;user=<USERNAME>;password=<PASSWORD>;database=resources;charset=utf8mb4;connectTimeout=60000;acquireTimeout=60000;timeout=60000
 ```
 {% endcode %}
+
+{% hint style="warning" %}
+During testing, hangs/server crashes occurred when `connectTimeout=60000;acquireTimeout=60000;timeout=60000`\
+was not included, your mileage may vary. I would recommend including these just in case.
+{% endhint %}
 
 #### Import SQL / Execute&#x20;
 
