@@ -62,3 +62,33 @@ Sound scheme names cannot have any spaces in them.
 {% endhint %}
 
 Add scheme name to `<SCHEMES>` object in VCF.
+
+### Ace Menu Permissions
+
+{% hint style="info" %}
+__:date: Future Feature: estimated release 1.0.0-BETA
+{% endhint %}
+
+#### Set up VCF for Permission
+
+To do this add an attribute to the associated menu item you would like to limit a profile's VCF.
+
+```xml
+<MENU>
+	<Menu_Access Enabled='true'/>
+	<Menu_Main_Siren_Settings Enabled="true"/>
+	<Toggle_Peer_Override Enabled="true" Permissions="true"/>	
+	<Toggle_Local_Override Enabled="true" Permissions="true"/>
+	<Toggle_Airhorn_Intrp Enabled="true"/>
+	...
+	<Menu_Plugins Enabled="true"/>
+</MENU>
+```
+
+In the example above, we've added `Permissions="true"` after the enable attribute. It is important to note that the `Enabled` attribute must be true, it acts as an end-all-be-all switch. Permissions can be added to any of the `<MENU>` elements.
+
+#### Ad
+
+#### Ad
+
+#### Ad
