@@ -88,7 +88,3 @@ To do this add an attribute to the associated menu item you would like to limit 
 In the example above, we've added `Permissions="true"` after the enable attribute. It is important to note that the `Enabled` attribute must be true, it acts as an end-all-be-all switch. Permissions can be added to any of the `<MENU>` elements.
 
 #### Ad
-
-#### Ad
-
-#### Ad
