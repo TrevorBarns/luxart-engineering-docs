@@ -82,12 +82,11 @@ Configure logging settings in `config.lua`. Then use `/lidarrecords` in game to 
 
 <pre class="language-lua"><code class="lang-lua"><strong>...
 </strong><strong>dependencies {
-</strong>     'oxmysql',		-- uncomment for persistent records &#x26; record management tablet. See docs and configs.
-}
+</strong><strong>	'oxmysql',		-- uncomment for persistent records &#x26; record management tablet. See docs and configs.
+</strong>}
 ...
 server_scripts {
-     '@oxmysql/lib/MySQL.lua', -- uncomment for persistent records &#x26; record management tablet. See docs and configs.
-	'UTIL/sv_*.lua',
-	'UTIL/semver.lua'
-}
-</code></pre>
+	'@oxmysql/lib/MySQL.lua', -- uncomment for persistent records &#x26; record management tablet. See docs and configs.
+<strong>	...
+</strong><strong>}
+</strong></code></pre>
