@@ -27,3 +27,8 @@ Luxart Engineering Trello
 ### Shared Plugins
 
 TBA.
+
+### Pro Laser 4
+
+* [ ] Controller Support
+* [ ] Player option to bypass self-test, legal challenge opportunity.
