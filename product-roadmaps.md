@@ -38,3 +38,4 @@ TBA.
 * [ ] **Passenger FPS Angle Support:** dynamic angle limitations in FPS based on seat / vehicle.
 * [ ] **Record Tablet Delay:** reduce upload delay experiment with more frequent uploads.
 * [ ] **Resize & Move OSD:** ability to modify on screen display parameters.&#x20;
+* [ ] **Tablet Improvements:** designated area exports and tablet prop.
