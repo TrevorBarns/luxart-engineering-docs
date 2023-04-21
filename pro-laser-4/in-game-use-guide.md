@@ -59,7 +59,9 @@ It is important for players to be trained on this and understand the effects of 
 
 ### First Person Aim Down Sight In Vehicles
 
-While in first person, aiming down sight, and in a vehicle the rotation of the camera is limited to 80 degrees right and 178 degrees to the left. Pushing against these limits causes the screen to jitter as the resource forces your camera back into allowable angles. The camera may clip against the interior of the vehicle, this is expected and there isn’t really a solution.
+While in first person, aiming down sight, and in a vehicle the rotation of the camera is limited to 110 degrees right and 178 degrees to the left. Pushing against these limits causes the screen to jitter as the resource forces your camera back into allowable angles. The camera may clip against the interior of the vehicle, this is expected and there isn’t really a solution.
+
+<figure><img src="../.gitbook/assets/Angle Limitation ProLaser4 (1).png" alt=""><figcaption><p>Angle Limitations</p></figcaption></figure>
 
 ### Calibration / Self-Test Behavior
 
