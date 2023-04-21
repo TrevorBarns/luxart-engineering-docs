@@ -35,3 +35,4 @@ TBA.
 * [ ] **Improve Redundancy:** add crash detection and recovery command.
 * [ ] **Improve Cosine Error:** improve accuracy of cosine error, including vertical separation.
 * [ ] **Display Self-Test Timestamp:** ability to view timestamp for ticketing purposes without tablet.
+* [ ] **Passenger FPS Angle Support:** dynamic angle limitations in FPS based on seat / vehicle.
