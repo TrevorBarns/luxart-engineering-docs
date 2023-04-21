@@ -6,7 +6,7 @@ description: How to set up ProLaser4 to work with SQL database.
 
 ### Introduction
 
-By default, Pro Laser 4 will store the last 100 clocks to the clients machine, which will be restored on relog.&#x20;
+By default, Pro Laser 4 will store the last 100 clocks to the player's machine, which will be loaded on player join.&#x20;
 
 The section below describes a centralized database for tracking clocks server side.&#x20;
 
@@ -18,10 +18,10 @@ The section below describes a centralized database for tracking clocks server si
 
 ### Setup prolaser4 Database Table
 
-If you do not have an existing database you'd like to use, you can create one, see example below. Notice: this must be the same database you connect to in your server.cfg.
+If you do not have an existing database you'd like to use, you can create one, see example below. _Notice:_ this must be the same database you connect to in your server.cfg.
 
 **Example:** \
-****I use a database called `resources` and my connnection string looks like this in my server.cfg:&#x20;
+I use a database called `resources` and my connection string looks like this in my server.cfg:&#x20;
 
 {% code overflow="wrap" %}
 ```bash
@@ -57,7 +57,7 @@ CREATE TABLE `prolaser4` (
 )
 COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
-AUTO_INCREMENT=1193;
+AUTO_INCREMENT=1;
 ```
 
 </details>
