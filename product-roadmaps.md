@@ -34,3 +34,4 @@ TBA.
 * [ ] **Bypass Self-Test:** player option to bypass self-test, legal challenge opportunity.
 * [ ] **Improve Redundancy:** add crash detection and recovery command.
 * [ ] **Improve Cosine Error:** improve accuracy of cosine error estimation including overestimation.
+* [ ] **Display Self-Test Timestamp:** ability to view timestamp for ticketing purposes without tablet.
