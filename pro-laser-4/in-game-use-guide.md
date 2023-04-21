@@ -57,11 +57,13 @@ It is important for players to be trained on this and understand the effects of 
 
 {% embed url="https://copradar.com/chapts/chapt2/ch2d1.html" %}
 
-### First Person Aim Down Sight In Vehicles
+### In Vehicle Angle Limits
 
-While in first person, aiming down sight, and in a vehicle the rotation of the camera is limited to 110 degrees right and 178 degrees to the left. Pushing against these limits causes the screen to jitter as the resource forces your camera back into allowable angles. The camera may clip against the interior of the vehicle, this is expected and there isn’t really a solution.
+While in vehicles, you are only able to clock vehicles within 110 degrees right and 178 degrees left, simulating inability to shoot through the rear windows. There are also camera limits when aimed in first person, against these limits causes the screen to jitter as the resource forces your camera back into allowable angles. The camera may also clip against the interior of the vehicle, this is expected and there isn’t really a solution.
 
-<figure><img src="../.gitbook/assets/Angle Limitation ProLaser4 (1).png" alt=""><figcaption><p>Angle Limitations</p></figcaption></figure>
+In the future this will be expanded to support passenger seat angles: [product-roadmaps.md](../product-roadmaps.md "mention")
+
+<figure><img src="../.gitbook/assets/Angle Limitation ProLaser4 (1).png" alt=""><figcaption><p>Angle Limitation In-Vehicle</p></figcaption></figure>
 
 ### Calibration / Self-Test Behavior
 
