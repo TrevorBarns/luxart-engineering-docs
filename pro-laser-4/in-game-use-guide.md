@@ -31,7 +31,7 @@ description: Instructions on how to use Pro Laser 4 in game.
 `/lidarweapon` adds Pro Laser 4 weapon to ped (vintage pistol).
 
 **If logging is enabled & configured:**\
-****`/lidarrecords` opens records tablet to view previous clock data.
+`/lidarrecords` opens records tablet to view previous clock data.
 
 ### Interface Guide
 
@@ -43,7 +43,15 @@ description: Instructions on how to use Pro Laser 4 in game.
 
 ### Range, Heading, and Entity Type Limitation
 
-The lidar gun can clock AI vehicles up to your view distance (1100-1800 ft max.). Civilian vehicles clock range is limited by FiveM’s OneSync to 400-500 ft. The lidar gun can only clock targets within 20 degree heading of the gun, any larger angles results in inaccurate reading and the data is discarded. It also has no built-in entity type limitations, it can clock vehicles, bicycles, peds, animals, and aircraft, so long as its speed is greater than 0, your game can determine the speed/range of the target, and the gun and target are within 20 degree delta heading.
+The lidar gun can clock AI vehicles up to your view distance (1100-1800 ft max.). Civilian vehicles clock range is limited by FiveM’s OneSync to 400-500 ft. It also has no built-in entity type limitations, it can clock vehicles, bicycles, peds, animals, and aircraft.&#x20;
+
+**Cosine Error:** An effect when lidar gun (and therefore beam) and target are not perpendicular to each other. The larger the angle between the instrument and the target the larger the error in clocking a vehicle speed. This error results in an _underestimation_ of the vehicles speed, meaning the display will show a speed less than that of the actual target speed. While we can't actually measure the tangent or simulate the lidar beam, it is a rough estimation based on heading. The reduction also has a random scalar, to help simulate the different surfaces the beam may be hitting each with a different tangent.
+
+It is important for players to be trained on this and understand the effects of Cosine error. The image below describes the mathematical relationship. You can read more at the link below.
+
+<figure><img src="https://i.imgur.com/LDrXoGu.png" alt=""><figcaption><p>Credit: <a href="https://copradar.com/chapts/chapt2/ch2d1.html">copradar.com/chapts/chapt2/ch2d1.html</a></p></figcaption></figure>
+
+{% embed url="https://copradar.com/chapts/chapt2/ch2d1.html" %}
 
 ### First Person Aim Down Sight In Vehicles
 
