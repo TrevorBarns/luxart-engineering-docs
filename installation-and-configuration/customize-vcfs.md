@@ -20,8 +20,8 @@ VCF files should be placed in `/VCF/` folder see [Assign Profiles](configure-bas
 
 {% tabs %}
 {% tab title="Faction" %}
-Determines if two clients profiles are compatible for peer override. __ \
-__
+Determines if two clients profiles are compatible for peer override. \
+
 
 _Example_: setting all profiles used for police departments to "LEO" would allow one agency to use peer override another agencies sirens. This is what prevents fire sirens from being overridden.
 {% endtab %}

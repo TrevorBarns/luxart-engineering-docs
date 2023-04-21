@@ -33,7 +33,7 @@ WM-ServerSirens Release Page CFX
 First we need to request the audio bank, this loads the audio for the client prior to use. We can place these lines anywhere in SIRENS.lua.
 
 {% hint style="warning" %}
-Currently only 7 audio banks are supported. We are not sure why, seems like a FiveM lua **** limitation.
+Currently only 7 audio banks are supported. We are not sure why, seems like a FiveM lua limitation.
 {% endhint %}
 
 **Server-Sided-Sounds-and-Sirens:**\

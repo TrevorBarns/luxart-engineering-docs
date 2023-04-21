@@ -66,7 +66,7 @@ Add scheme name to `<SCHEMES>` object in VCF.
 ### Ace Menu Permissions
 
 {% hint style="info" %}
-__:date: Future Feature: estimated release 1.0.0-BETA
+:date: Future Feature: estimated release 1.0.0-BETA
 {% endhint %}
 
 #### Set up VCF for Permission

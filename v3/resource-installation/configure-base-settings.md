@@ -37,13 +37,13 @@ List of Keys**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
 `open_menu_key`: sets default key for opening LVC:v3 Menu.\
 `lockout_default_key`: sets default key for toggling LVC:v3 control lock, which disabled all controls.
 
-****
+
 
 **Indicator Controls**
 
 These static keys cannot be changed by the end user and support controller keys as well.\
 List of Keys**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/game-references/controls/)
 
-`hazard_key`_:_ when held for __ `hazard_hold_duration` toggle 4-way flashers.\
+`hazard_key`_:_ when held for `hazard_hold_duration` toggle 4-way flashers.\
 `left_signal_key`: toggle left turn signal.\
 `right_signal_key`: toggle right turn signal.
