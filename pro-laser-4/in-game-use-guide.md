@@ -51,6 +51,8 @@ It is important for players to be trained on this and understand the effects of 
 
 <figure><img src="https://i.imgur.com/LDrXoGu.png" alt=""><figcaption><p>Credit: <a href="https://copradar.com/chapts/chapt2/ch2d1.html">copradar.com/chapts/chapt2/ch2d1.html</a></p></figcaption></figure>
 
+<figure><img src="https://i.imgur.com/G2qleWz.png" alt=""><figcaption><p>Credit: <a href="https://copradar.com/chapts/chapt2/ch2d1.html">copradar.com/chapts/chapt2/ch2d1.html</a></p></figcaption></figure>
+
 {% embed url="https://copradar.com/chapts/chapt2/ch2d1.html" %}
 
 ### First Person Aim Down Sight In Vehicles
