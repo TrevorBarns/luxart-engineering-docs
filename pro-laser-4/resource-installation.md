@@ -9,14 +9,10 @@ description: Instructions on how to install Pro Laser 4 into your server.
 1. **Copy `ProLaser4` to resources folder.**
 2. **Add `ensure ProLaser4`to server.cfg.**
 
-{% hint style="warning" %}
-#### &#x20;Streamed Weapon & Weapons Meta
-
-If you stream vintage pistol or it's associated metas in another resource, Pro Laser 4 will conflict with them. You will need to replace these or change which model Pro Laser 4 uses.
-{% endhint %}
+If the records tablet is desired continue reading here: [persistent-records-and-tablet.md](persistent-records-and-tablet.md "mention")
 
 {% hint style="warning" %}
-#### Streamed Weapon Wheel Textures
+#### &#x20;Streamed Custom Weapon
 
-If you stream custom weapon wheel textures in another resource and would like to use the custom lidar weapon image, you'll need to edit `weapons_dlc_bb.png` in the`UI` folder.
+It is important to note that **restarting the resource** after players have spawned the weapon **will result in the players FiveM crashing**. If restarting the resource in the future is desired consider moving the weapon related elements (metas and stream folder) to a resource on their own.
 {% endhint %}
