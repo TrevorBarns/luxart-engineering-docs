@@ -37,3 +37,4 @@ TBA.
 * [ ] **Display Self-Test Timestamp:** ability to view timestamp for ticketing purposes without tablet.
 * [ ] **Passenger FPS Angle Support:** dynamic angle limitations in FPS based on seat / vehicle.
 * [ ] **Record Tablet Delay:** reduce upload delay experiment with more frequent uploads.
+* [ ] **Resize & Move OSD:** ability to modify on screen display parameters.&#x20;
