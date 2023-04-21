@@ -30,5 +30,7 @@ TBA.
 
 ### Pro Laser 4
 
-* [ ] Controller Support
-* [ ] Player option to bypass self-test, legal challenge opportunity.
+* [ ] **Controller Support:** use correct controls depending on if the player is in a vehicle or on foot.&#x20;
+* [ ] **Bypass Self-Test:** player option to bypass self-test, legal challenge opportunity.
+* [ ] **Improve Redundancy:** add crash detection and recovery command.
+* [ ] **Improve Cosine Error:** improve accuracy of cosine error estimation including overestimation.
