@@ -90,3 +90,14 @@ server_scripts {
 <strong>	...
 </strong><strong>}
 </strong></code></pre>
+
+### Imgur Integration for Record Printing
+
+The Pro Laser 4 uses imgur as an upload endpoint for "printing" lidar records from the tablet. These are more screenshots than prints but, are roleplayed as such. In order to be able to upload these images to imgur you will need to generate an API client ID.
+
+1. Navigate to [https://api.imgur.com/oauth2/addclient](https://api.imgur.com/oauth2/addclient)
+2. Register an application, you can use https://imgur.com or another site as _'Authorization callback URL',_ it is not used.
+3. Navigate to: [https://imgur.com/account/settings/apps](https://imgur.com/account/settings/apps)
+4. Copy _Client ID_ field.
+5. Paste in to config in the following format: `cfg.imgurApiKey = 'Client-ID XXXXXXXXXXXXXXX'` where `XXXXXXXXXXXXXXX` is the client ID you copied in step 4.
+6. Restart ProLaser4 and test out your print functionality in the tablet.
