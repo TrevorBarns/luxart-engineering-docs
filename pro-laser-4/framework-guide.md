@@ -9,7 +9,7 @@ description: Additional information for configuring Pro Laser 4 with frameworks.
 **Weapon**
 
 Create a new weapon for Pro Laser 4 with attributes in \
-`[qb]/qb-core/shared/weapons.lua`
+`qb-core/shared/weapons.lua`
 
 {% code title="weapons.lua" %}
 ```lua
@@ -25,7 +25,7 @@ Create a new weapon for Pro Laser 4 with attributes in \
 **Item**
 
 Create a new item for Pro Laser 4 with attributes in \
-`[qb]/qb-core/shared/items.lua`
+`qb-core/shared/items.lua`
 
 {% code title="items.lua" %}
 ```lua
@@ -45,4 +45,35 @@ Create a new item for Pro Laser 4 with attributes in \
 
 ### Overextended
 
-TBD.
+Create a new item for Pro Laser 4 with attributes in \
+`ox_invetory/weapons.lua`
+
+{% code title="weapons.lua" %}
+```lua
+['WEAPON_PROLASER4'] = {
+	label = 'Lidar Gun',
+	weight = 700,
+	durability = 0.1,
+},
+```
+{% endcode %}
+
+### Sample Weapon Icons
+
+<div>
+
+<figure><img src="../.gitbook/assets/framework_icon (1).png" alt=""><figcaption><p>Small</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/framework_icon_brighter (2).png" alt=""><figcaption><p>Small Brighter</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/framework_icon_large.png" alt=""><figcaption><p>Large</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/framework_icon_large_brighter.png" alt=""><figcaption><p>Large<br>Brighter</p></figcaption></figure>
+
+</div>
