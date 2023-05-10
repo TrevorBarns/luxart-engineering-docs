@@ -31,11 +31,12 @@ TBA.
 ### Pro Laser 4
 
 * [ ] **Controller Support:** use correct controls depending on if the player is in a vehicle or on foot.&#x20;
+* [ ] **Resize & Move OSD:** ability to modify on screen display parameters.&#x20;
+* [ ] **Discord Hook:** allow users to upload records to discord instead of Imgur.
 * [ ] **Bypass Self-Test:** player option to bypass self-test, legal challenge opportunity.
 * [ ] **Improve Redundancy:** add crash detection and recovery command.
 * [ ] **Improve Cosine Error:** improve accuracy of cosine error, including vertical separation.
 * [ ] **Display Self-Test Timestamp:** ability to view timestamp for ticketing purposes without tablet.
 * [ ] **Passenger FPS Angle Support:** dynamic angle limitations in FPS based on seat / vehicle.
 * [ ] **Record Tablet Delay:** reduce upload delay experiment with more frequent uploads.
-* [ ] **Resize & Move OSD:** ability to modify on screen display parameters.&#x20;
 * [ ] **Tablet Improvements:** designated area exports and tablet prop.
