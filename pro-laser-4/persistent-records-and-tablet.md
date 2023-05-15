@@ -1,5 +1,5 @@
 ---
-description: How to set up ProLaser4 to work with SQL database.
+description: How to set up Pro Laser 4 tablet.
 ---
 
 # 💾 Persistent Records & Tablet
@@ -12,11 +12,11 @@ The section below describes a centralized database for tracking clocks server si
 
 ### Dependencies
 
-[oxmysql](https://github.com/overextended/oxmysql/) - SQL interface resource. Alternatively you can modify ProLaser4 if you use another resource.
+[oxmysql](https://github.com/overextended/oxmysql/) - SQL interface resource. Alternatively you can modify `sv_lidar.lua` if you use another resource.
 
 [Documentation for oxmysql](https://overextended.github.io/docs/oxmysql/)
 
-### Setup prolaser4 Database Table
+### Setup Pro Laser 4 Database Table
 
 If you do not have an existing database you'd like to use, you can create one, see example below. _Notice:_ this must be the same database you connect to in your server.cfg.
 
@@ -93,11 +93,36 @@ server_scripts {
 
 ### Imgur Integration for Record Printing
 
-The Pro Laser 4 uses imgur as an upload endpoint for "printing" lidar records from the tablet. These are more screenshots than prints but, are roleplayed as such. In order to be able to upload these images to imgur you will need to generate an API client ID.
+The Pro Laser 4 can use Imgur as an upload endpoint for "printing" lidar records from the tablet. These are more screenshots than prints but, are roleplayed as such. In order to be able to upload these images to Imgur you will need to generate an API client ID.
 
 1. Navigate to [https://api.imgur.com/oauth2/addclient](https://api.imgur.com/oauth2/addclient)
 2. Register an application, select "_OAuth 2 authorization without a callback URL_"
 3. Navigate to: [https://imgur.com/account/settings/apps](https://imgur.com/account/settings/apps)
 4. Copy _Client ID_ field.
 5. Paste in to config in the following format: `cfg.imgurApiKey = 'Client-ID XXXXXXXXXXXXXXX'` where `XXXXXXXXXXXXXXX` is the client ID you copied in step 4.
-6. Restart ProLaser4 and test out your print functionality in the tablet.
+6. Restart Pro Laser 4 and test out your print functionality in the tablet.
+
+### Discord Webhook for Record Printing
+
+The Pro Laser 4 can also use Discord as an upload endpoint for "printing" lidar records from the tablet. Discord webhook messages include record data and a screenshot of the record document. In order to be able to upload these images to Discord you will need a Discord webhook on a channel.
+
+<div align="center">
+
+<figure><img src="https://i.imgur.com/LdYqlaE.png" alt="" width="375"><figcaption><p>Example Embed from PL4</p></figcaption></figure>
+
+</div>
+
+1. Open "Edit Channel" for the channel where you would like these posted.
+2. Navigate to "Integrations" tab.
+3. Click "Webhooks", then "New Webhook" if you don't already have one.
+4. Then "Copy Webhook URL" and paste in `cfg.discordWebhook`. See example below.
+5. Restart Pro Laser 4 and test out your print functionality in the tablet.
+
+{% code title="config.lua" overflow="wrap" fullWidth="false" %}
+```lua
+cfg.discordWebhook = 'https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXXX/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY'
+```
+{% endcode %}
+
+_Note:_ customizing the icon or name for the webhook is not necessary, ProLaser4 will set the webhook name and image when posting.
+

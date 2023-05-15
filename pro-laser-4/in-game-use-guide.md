@@ -28,7 +28,11 @@ description: Instructions on how to use Pro Laser 4 in game.
 
 `/lidarwipe` clears lidar history save data.
 
-`/lidarweapon` adds Pro Laser 4 weapon to ped (vintage pistol).
+`/lidarweapon` adds Pro Laser 4 weapon to ped.
+
+`/lidarmove` to move and resize the on screen display.
+
+`/lidarmove true` to reset on screen display size and location to defaults.
 
 **If logging is enabled & configured:**\
 `/lidarrecords` opens records tablet to view previous clock data.
@@ -84,7 +88,7 @@ The recalled events menu can be navigated by pressing or holding `LEFT ARROW` or
 
 If [persistent-records-and-tablet.md](persistent-records-and-tablet.md "mention") has been setup, then players in-game can review all players past clocks in accordance with logging settings in `config.lua`. The records tablet is a simulated tablet/laptop application that can retrieve all players previous clocks. It also allows printing clock data which includes information about the lidar gun, it's self-test state, and more.
 
-Users clocks are submitted to the server every minute, if any are pending. All records waiting server side are inserted to the database every 5 minutes. As such, **the records tablet can have a delay of up to 6 minutes.**
+Users clocks are submitted to the server every minute, if any are pending. All records waiting server side are inserted to the database every 5 minutes. As such, **the records tablet can have a delay of up to 6 minutes by default,** however this can be changed in the config under `cfg.loggingInsertInterval`**.**
 
 <figure><img src="../.gitbook/assets/FiveM_b2699_GTAProcess_e2bSiHJO1X.png" alt=""><figcaption><p>Records Tablet Main Screen</p></figcaption></figure>
 
