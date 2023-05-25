@@ -22,21 +22,7 @@ Whelen Cencom Carbide Functionality
 
 ### **Currently Supported States/Extras:**
 
-|   Common Name   | String       | Trigger                                               |
-| :-------------: | ------------ | ----------------------------------------------------- |
-|   Brake Lights  | `Brake`      | Vehicle is in braking.                                |
-|  Reverse Lights | `Reverse`    | Vehicle is in reverse.                                |
-| Right Indicator | `RIndicator` | Vehicles left turn signal is active.                  |
-|  Left Indicator | `LIndicator` | Vehicles right turn signal is active.                 |
-|    Takedowns    | `Takedowns`  | Take-downs are enabled (requires _takedowns_ plugin). |
-|   Driver Seat   | `DSeat`      | Driver seat occupied.                                 |
-|   Driver Door   | `DDoor`      | Driver door not latched.                              |
-|  Passenger Door | `PDoor`      | Passenger door not latched.                           |
-|      Trunk      | `Trunk`      | Trunk is not latched.                                 |
-|    Main Siren   | `MainSiren`  | Main/Primary siren is activated.                      |
-|    Aux Siren    | `AuxSiren`   | Aux/Pwrcall siren is activated.                       |
-|     Air Horn    | `AirHorn`    | Air horn is active.                                   |
-|   Manual Tone   | `Manu`       | Primary or Secondary Manual tone is active.           |
+<table><thead><tr><th width="188.33333333333331" align="center">Common Name</th><th width="141">String</th><th width="417.6666666666667">Trigger</th></tr></thead><tbody><tr><td align="center">Brake Lights</td><td><code>Brake</code></td><td>Vehicle is in braking.</td></tr><tr><td align="center">Reverse Lights</td><td><code>Reverse</code></td><td>Vehicle is in reverse.</td></tr><tr><td align="center">Right Indicator</td><td><code>RIndicator</code></td><td>Vehicles left turn signal is active.</td></tr><tr><td align="center">Left Indicator</td><td><code>LIndicator</code></td><td>Vehicles right turn signal is active.</td></tr><tr><td align="center">Takedowns</td><td><code>Takedowns</code></td><td>Take-downs are enabled (requires <em>takedowns</em> plugin).</td></tr><tr><td align="center">Driver Seat</td><td><code>DSeat</code></td><td>Driver seat occupied.</td></tr><tr><td align="center">Driver Door</td><td><code>DDoor</code></td><td>Driver door not latched.</td></tr><tr><td align="center">Passenger Door</td><td><code>PDoor</code></td><td>Passenger door not latched.</td></tr><tr><td align="center">Trunk</td><td><code>Trunk</code></td><td>Trunk is not latched.</td></tr><tr><td align="center">Main Siren</td><td><code>MainSiren</code></td><td>Main/Primary siren is activated.</td></tr><tr><td align="center">Aux Siren</td><td><code>AuxSiren</code></td><td>Aux/Pwrcall siren is activated.</td></tr><tr><td align="center">Air Horn</td><td><code>AirHorn</code></td><td>Air horn is active.</td></tr><tr><td align="center">Manual Tone</td><td><code>Manu</code></td><td>Primary or Secondary Manual tone is active.</td></tr></tbody></table>
 
 ### Configuration
 

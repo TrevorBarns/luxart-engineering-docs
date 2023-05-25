@@ -62,17 +62,7 @@ AUTO_INCREMENT=1;
 
 </details>
 
-| Column              | Datatype | Usage                                                                                                                   |
-| ------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `rid`               | INT      | Record ID / Primary Key                                                                                                 |
-| `timestamp`         | DATETIME | Time at which clock occurred.                                                                                           |
-| `speed`             | INT      | Estimated speed from clock.                                                                                             |
-| `distance`          | FLOAT    | Estimated distance from clock.                                                                                          |
-| `targetX`           | FLOAT    | Target entity's GTA X coordinate.                                                                                       |
-| `targetY`           | FLOAT    | Target entity's GTA Y coordinate.                                                                                       |
-| `player`            | TEXT     | Lidar user's name.                                                                                                      |
-| `street`            | TEXT     | Street (and cross street if detected) of target vehicles location.                                                      |
-| `selfTestTimestamp` | DATETIME | <p>Time at which the lidar self-test occurred,<br><code>0000-00-00 00:00:00</code> if self-test disabled in config.</p> |
+<table><thead><tr><th width="221">Column</th><th width="120.33333333333331">Datatype</th><th>Usage</th></tr></thead><tbody><tr><td><code>rid</code></td><td>INT</td><td>Record ID / Primary Key</td></tr><tr><td><code>timestamp</code></td><td>DATETIME</td><td>Time at which clock occurred.</td></tr><tr><td><code>speed</code></td><td>INT</td><td>Estimated speed from clock.</td></tr><tr><td><code>distance</code></td><td>FLOAT</td><td>Estimated distance from clock.</td></tr><tr><td><code>targetX</code></td><td>FLOAT</td><td>Target entity's GTA X coordinate.</td></tr><tr><td><code>targetY</code></td><td>FLOAT</td><td>Target entity's GTA Y coordinate.</td></tr><tr><td><code>player</code></td><td>TEXT</td><td>Lidar user's name.</td></tr><tr><td><code>street</code></td><td>TEXT</td><td>Street (and cross street if detected) of target vehicles location.</td></tr><tr><td><code>selfTestTimestamp</code></td><td>DATETIME</td><td>Time at which the lidar self-test occurred,<br><code>0000-00-00 00:00:00</code> if self-test disabled in config.</td></tr></tbody></table>
 
 ### Logging Configuration
 

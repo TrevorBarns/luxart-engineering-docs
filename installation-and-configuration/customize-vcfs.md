@@ -49,17 +49,7 @@ RumblerBank="DLC_SERVERSIDEAUDIO\OISS_SSA_VEHAUD_ETC"
 ```
 {% endcode %}
 
-| Item Name      | Use                                                                                                                                                                                                                                                       |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ResidentString | GTA V tone string that references RESIDENT.rpf file.                                                                                                                                                                                                      |
-| String         | Tone string that references server sided sirens. _(optional)_                                                                                                                                                                                             |
-| Ref            | Tone audio bank reference for server sided sirens. _(optional)_                                                                                                                                                                                           |
-| Bank           | Tone audio bank name that loaded server sided sirens bank. _(optional)_                                                                                                                                                                                   |
-| RumblerString  | Tone string that references resident or server sided sirens. _(optional)_                                                                                                                                                                                 |
-| RumblerRef     | Tone string that references resident or server sided sirens. _(optional)_                                                                                                                                                                                 |
-| RumblerBank    | Tone audio bank name that loaded server sided sirens bank. _(optional)_                                                                                                                                                                                   |
-| Option         | Determines when this tone can be played: 1-Cycle & Button, 2-Cycle Only, 3-Button Only, 4-Disabled. _(optional)_                                                                                                                                          |
-| Fallback       | Determines what siren should be played when using peer override and the other player is using a siren index that is greater than the local players siren count. _e.g. playing 4th siren and the local player only has 3 sirens assigned._ _(Recommended)_ |
+<table><thead><tr><th width="159">Item Name</th><th>Use</th></tr></thead><tbody><tr><td>ResidentString</td><td>GTA V tone string that references RESIDENT.rpf file.</td></tr><tr><td>String</td><td>Tone string that references server sided sirens. <em>(optional)</em></td></tr><tr><td>Ref</td><td>Tone audio bank reference for server sided sirens. <em>(optional)</em></td></tr><tr><td>Bank</td><td>Tone audio bank name that loaded server sided sirens bank. <em>(optional)</em></td></tr><tr><td>RumblerString</td><td>Tone string that references resident or server sided sirens. <em>(optional)</em></td></tr><tr><td>RumblerRef</td><td>Tone string that references resident or server sided sirens. <em>(optional)</em></td></tr><tr><td>RumblerBank</td><td>Tone audio bank name that loaded server sided sirens bank. <em>(optional)</em></td></tr><tr><td>Option</td><td>Determines when this tone can be played: 1-Cycle &#x26; Button, 2-Cycle Only, 3-Button Only, 4-Disabled. <em>(optional)</em></td></tr><tr><td>Fallback</td><td>Determines what siren should be played when using peer override and the other player is using a siren index that is greater than the local players siren count. <em>e.g. playing 4th siren and the local player only has 3 sirens assigned.</em> <em>(Recommended)</em></td></tr></tbody></table>
 
 #### :gear: SIREN\_CONFIG Element
 
@@ -78,15 +68,7 @@ RumblerBank="DLC_SERVERSIDEAUDIO\OISS_SSA_VEHAUD_ETC"
 </SIREN_CONFIG>
 ```
 
-| Item Name       | Use                                                                                                                                        |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| \*ToneID        | Which index for respective tones (HORN, PRI. MANU., SEC. MANU.)                                                                            |
-| Airhorn\_Intrp  | Airhorn interrupt siren on activation, default behavior.                                                                                   |
-| Reset\_Standby  | Siren resets to first index on toggle, default behavior.                                                                                   |
-| Park\_Kill      | Turn siren turn off on vehicle exit, default behavior.                                                                                     |
-| Local\_Override | <p>Override any server side sirens with client side sirens. <br><strong>(Must be enabled if no server sided sirens are used.)</strong></p> |
-| Peer\_Override  | <p>Override other players siren choice with select profile. <br><em>(Recommend disabled if no server sided sirens are used.)</em></p>      |
-| Rumbler         | <p>Enables rumbler/howler functionality <br><strong>(Requires RumblerString, RumblerRef, RumblerBank to be set.)</strong></p>              |
+<table><thead><tr><th width="178">Item Name</th><th>Use</th></tr></thead><tbody><tr><td>*ToneID</td><td>Which index for respective tones (HORN, PRI. MANU., SEC. MANU.)</td></tr><tr><td>Airhorn_Intrp</td><td>Airhorn interrupt siren on activation, default behavior.</td></tr><tr><td>Reset_Standby</td><td>Siren resets to first index on toggle, default behavior.</td></tr><tr><td>Park_Kill</td><td>Turn siren turn off on vehicle exit, default behavior.</td></tr><tr><td>Local_Override</td><td>Override any server side sirens with client side sirens. <br><strong>(Must be enabled if no server sided sirens are used.)</strong></td></tr><tr><td>Peer_Override</td><td>Override other players siren choice with select profile. <br><em>(Recommend disabled if no server sided sirens are used.)</em></td></tr><tr><td>Rumbler</td><td>Enables rumbler/howler functionality <br><strong>(Requires RumblerString, RumblerRef, RumblerBank to be set.)</strong></td></tr></tbody></table>
 
 #### :traffic\_light: HUD Element
 
@@ -136,14 +118,7 @@ Default siren controller HUD display state.&#x20;
 </AUDIO>
 ```
 
-| Item Name                           | Use                                                                                                                                                                                                                               |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Radio                               | Radio wheel functionality.                                                                                                                                                                                                        |
-| \*\_SFX                             | Button sound effects. (Hazards, Airhorn, Manual tone)                                                                                                                                                                             |
-| Scheme\_Index                       | Button SFX audio scheme index from `<SCHEMES>` element.                                                                                                                                                                           |
-| Activity\_Reminder\_Interval\_Index | Activity reminder settings. 'Off', '1/2', '1', '2', '5', '10' in minutes.                                                                                                                                                         |
-| \*\_Volume                          | SFX volume to be used.                                                                                                                                                                                                            |
-| SCHEME element(s)                   | <p>Name of approved SFX folder(s) as found in <code>/UI/sounds/</code> </p><p>(See <a href="../fleet/resource-installation/advanced-configuration.md#custom-audio-schemes">Advanced Configuration - Custom Audio Schemes</a>)</p> |
+<table><thead><tr><th width="187">Item Name</th><th>Use</th></tr></thead><tbody><tr><td>Radio</td><td>Radio wheel functionality.</td></tr><tr><td>*_SFX</td><td>Button sound effects. (Hazards, Airhorn, Manual tone)</td></tr><tr><td>Scheme_Index</td><td>Button SFX audio scheme index from <code>&#x3C;SCHEMES></code> element.</td></tr><tr><td>Activity_Reminder_Interval_Index</td><td>Activity reminder settings. 'Off', '1/2', '1', '2', '5', '10' in minutes.</td></tr><tr><td>*_Volume</td><td>SFX volume to be used.</td></tr><tr><td>SCHEME element(s)</td><td><p>Name of approved SFX folder(s) as found in <code>/UI/sounds/</code> </p><p>(See <a href="../fleet/resource-installation/advanced-configuration.md#custom-audio-schemes">Advanced Configuration - Custom Audio Schemes</a>)</p></td></tr></tbody></table>
 
 #### :closed\_lock\_with\_key: Menu Element - Permissions
 

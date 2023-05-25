@@ -11,7 +11,11 @@ layout: landing
 
 The new an improved latest resource from Luxart Engineering, **coming soon**!
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/luxvehcontrol-fleet-logo-med.png" alt=""><figcaption><p>LVC:F Logo</p></figcaption></figure>
+
+</div>
 
 {% content-ref url="README (1).md" %}
 [README (1).md](<README (1).md>)
@@ -27,7 +31,11 @@ The new an improved latest resource from Luxart Engineering, **coming soon**!
 
 The O.G. modified emergency light and siren controller for FiveM.
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/luxvehcontrol-logo-med.png" alt=""><figcaption><p>LVC v3 Logo</p></figcaption></figure>
+
+</div>
 
 {% embed url="https://forum.cfx.re/t/luxart-vehicle-control-v3/4436673/1" %}
 
@@ -41,7 +49,11 @@ The O.G. modified emergency light and siren controller for FiveM.
 
 LiDAR / Radar gun resource for FiveM.
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/luxprolaser4-logo-med.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 {% content-ref url="pro-laser-4/resource-installation.md" %}
 [resource-installation.md](pro-laser-4/resource-installation.md)

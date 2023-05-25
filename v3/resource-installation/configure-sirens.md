@@ -33,9 +33,4 @@ SIRENS = {
   *   **`Option`** an additional key can be added to each tones table determines the default option state that each tone is in. The end user can change these later.\
       _Example:_ `{ Name = "CustomName", String = "SIREN_STRING", Ref = 0, Option = 1 },`
 
-      | Option Value |    Behavior    |
-      | :----------: | :------------: |
-      |       1      | Cycle & Button |
-      |       2      |   Cycle Only   |
-      |       3      |   Button Only  |
-      |       4      |    Disabled    |
+      <table><thead><tr><th width="162.70103092783506" align="center">Option Value</th><th width="188" align="center">Behavior</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Cycle &#x26; Button</td></tr><tr><td align="center">2</td><td align="center">Cycle Only</td></tr><tr><td align="center">3</td><td align="center">Button Only</td></tr><tr><td align="center">4</td><td align="center">Disabled</td></tr></tbody></table>

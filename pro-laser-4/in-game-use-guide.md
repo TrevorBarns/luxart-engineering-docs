@@ -11,16 +11,7 @@ description: Instructions on how to use Pro Laser 4 in game.
 
 ### **Controls:**
 
-|        Key        | Description                                              |             Type             |
-| :---------------: | -------------------------------------------------------- | :--------------------------: |
-|        `I`        | Toggle lidar display.                                    | Modifiable in FiveM Settings |
-|        `C`        | Change sniper vs. simulated sight display in 1st person. |            Static            |
-|    `LEFT MOUSE`   | Clock target speed player is aimed at.                   |            Static            |
-|   `RIGHT MOUSE`   | Toggle aim.                                              |            Static            |
-|   `RIGHT ARROW`   | Open history and scroll next, hold to fast scroll.       |            Static            |
-|    `LEFT ARROW`   | Close history and scroll previous, hold to fast scroll.  |            Static            |
-|  `SCROLLWHEEL UP` | Zooms in.                                                |            Static            |
-| `SCROLLWHEEL DWN` | Zooms out.                                               |            Static            |
+<table><thead><tr><th width="198" align="center">Key</th><th width="374.3333333333333">Description</th><th align="center">Type</th></tr></thead><tbody><tr><td align="center"><code>I</code></td><td>Toggle lidar display.</td><td align="center">Modifiable in FiveM Settings</td></tr><tr><td align="center"><code>C</code></td><td>Change sniper vs. simulated sight display in 1st person.</td><td align="center">Static</td></tr><tr><td align="center"><code>LEFT MOUSE</code></td><td>Clock target speed player is aimed at.</td><td align="center">Static</td></tr><tr><td align="center"><code>RIGHT MOUSE</code></td><td>Toggle aim.</td><td align="center">Static</td></tr><tr><td align="center"><code>RIGHT ARROW</code></td><td>Open history and scroll next, hold to fast scroll.</td><td align="center">Static</td></tr><tr><td align="center"><code>LEFT ARROW</code></td><td>Close history and scroll previous, hold to fast scroll.</td><td align="center">Static</td></tr><tr><td align="center"><code>SCROLLWHEEL UP</code></td><td>Zooms in.</td><td align="center">Static</td></tr><tr><td align="center"><code>SCROLLWHEEL DWN</code></td><td>Zooms out.</td><td align="center">Static</td></tr></tbody></table>
 
 ### Commands:
 

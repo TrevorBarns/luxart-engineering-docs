@@ -8,7 +8,11 @@ description: RageUI menu for LVC:F.
 
 The LVC:Fleet menu can be opened by default using `O` as in Oscar this can be changed in [base settings](../../installation-and-configuration/configure-base-settings.md#register-key-maps).&#x20;
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/VPBTwyT.png" alt=""><figcaption><p>LVC:Fleet RageUI Menu</p></figcaption></figure>
+
+</div>
 
 #### Profile
 
@@ -36,7 +40,11 @@ Change which tone is played when the auxiliary siren (`up-arrow`). Pressing Ente
 
 ### Main Siren Settings
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_G0xQtndBN3 copy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Airhorn Interrupt Mode
 
@@ -58,7 +66,11 @@ Selecting the item using the Enter will allow players to rename the tones.
 
 ### HUD Settings
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_xzXHxElF9D copy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Enabled
 
@@ -82,7 +94,11 @@ Repositions HUD to it's default position. This can be used if the HUD is off scr
 
 ### Audio Settings
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_Pff9D4VdrT copy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Radio Controls
 
@@ -110,7 +126,11 @@ Allows for changing of sound effect volumes via slider. Pressing enter on a volu
 
 ### Storage Management Menu
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_GgRcAfe9TD copy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Save Settings
 
