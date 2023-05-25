@@ -23,7 +23,7 @@ The purpose of this string is to differentiate the client side saves between ser
 {% endhint %}
 
 {% hint style="warning" %}
-This string should be set once, and never changed as it will result in loss of LVC:v3 saves for all players. It is not public facing so even if the server name changes it does not need to change.
+This string should be set once, and never changed as it will result in loss of LVC:Fleet saves for all players. It is not public facing so even if the server name changes it does not need to change.
 {% endhint %}
 
 ### Configure Controls
