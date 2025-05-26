@@ -13,9 +13,9 @@ Font Awesome is a web font and icon provider which allows developers to easily i
 
 ### Why would I want to proceed with this configuration?
 
-To restore the Lidar Records Tablet icons. Font Awesome offers both paid and free plans. However, free plans are limited by the number of page views.&#x20;
+To restore the Lidar Records Tablet icons. Font Awesome offers both paid and free plans. However, free plans are limited by the number of page views and since this is a free resource I will not be paying for page views beyond what the free plan offers.&#x20;
 
-Since this is a free resource I will not be paying for page views beyond the free number of page views. This can result in icons disappearing as I exceed the limit on the provided free plan. The following steps will help you configure ProLaser4 to use your own account which should reduce the odds of this occurring.
+This can result in icons disappearing as my plan's page views exceed the limit. The following steps will help you configure ProLaser4 to use your own account which will reduce the odds of this occurring and help you fix the issue should it occur in the future.
 
 ### How to configure Font Awesome & Pro Laser 4
 
