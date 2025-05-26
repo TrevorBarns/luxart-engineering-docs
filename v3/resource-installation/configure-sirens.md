@@ -31,6 +31,6 @@ SIRENS = {
 * For advanced users:
   * **`String`** and **`Ref`** can be changed to change which audio file is pulled based on tone. Rearranging default resident.rpf names is not recommended as it serves no benefit. Instead rearranging the siren assignments order would be easier. The only time changing `String` and `Ref` would be recommended is for integration of server side siren integration. See [Server Sided Audio Integration](https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Server-Sided-Audio-Integration).
   *   **`Option`** an additional key can be added to each tones table determines the default option state that each tone is in. The end user can change these later.\
-      _Example:_ `{ Name = "CustomName", String = "SIREN_STRING", Ref = 0, Option = 1 },`
+      &#xNAN;_&#x45;xample:_ `{ Name = "CustomName", String = "SIREN_STRING", Ref = 0, Option = 1 },`
 
       <table><thead><tr><th width="162.70103092783506" align="center">Option Value</th><th width="188" align="center">Behavior</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Cycle &#x26; Button</td></tr><tr><td align="center">2</td><td align="center">Cycle Only</td></tr><tr><td align="center">3</td><td align="center">Button Only</td></tr><tr><td align="center">4</td><td align="center">Disabled</td></tr></tbody></table>

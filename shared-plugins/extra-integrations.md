@@ -29,7 +29,7 @@ Whelen Cencom Carbide Functionality
 1. Ensure that `plugins_installed` is set to true in `lvc/SETTINGS.lua`.
 2. Open the SETTINGS.lua located in `/plugins/extra_integration`. Adjust settings to your liking.
 3.  Now configure the EXTRA\_ASSIGNMENTS table to your liking. The Extra Assignments table is very dynamic an allows for multiple set up variations.\
-    _Example:_
+    &#xNAN;_&#x45;xample:_
 
     {% code title="SETTINGS.lua" %}
     ```lua

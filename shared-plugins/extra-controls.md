@@ -15,7 +15,7 @@ The "extra\_controls" plugin handles specific extra toggling on demand using key
 1. Ensure that `plugins_installed` is set to true in `lvc/SETTINGS.lua`.
 2. Open the SETTINGS.lua located in `/plugins/extra_controls`. Adjust settings to your liking.
 3.  Determine a set of controls/combos that players can use. Configure the EXTRA\_CONTROLS table to your liking.\
-    List of Keys**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/game-references/controls/)
+    List of Key&#x73;**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/game-references/controls/)
 
     _Example:_
 
@@ -30,7 +30,7 @@ The "extra\_controls" plugin handles specific extra toggling on demand using key
     ```
     {% endcode %}
 4.  Configure the EXTRA\_CONTROLS table to your liking. \
-    _Example:_
+    &#xNAN;_&#x45;xample:_
 
     {% code title="SETTINGS.lua" %}
     ```lua

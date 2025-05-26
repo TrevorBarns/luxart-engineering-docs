@@ -9,7 +9,7 @@ description: Instructions on how to install Pro Laser 4 into your server.
 1. **Copy `ProLaser4` to resources folder.**
 2. **Add `ensure ProLaser4`to server.cfg.**
 
-If the records tablet is desired continue reading here: [persistent-records-and-tablet.md](persistent-records-and-tablet.md "mention")
+If the records tablet is desired continue reading here: [persistent-records-and-tablet](persistent-records-and-tablet/ "mention")
 
 {% hint style="warning" %}
 #### &#x20;Streamed Custom Weapon

@@ -17,7 +17,7 @@ The "traffic\_advisor" plugin is designed for extra toggling in order to activat
 1. Ensure that `plugins_installed` is set to true in `/SETTINGS.lua`.
 2. Open the SETTINGS.lua located in `/plugins/traffic_advisor`. Adjust settings to your liking.
 3.  Now configure the TA\_ASSIGNMENTS table to your liking. The TA Assignments table is very dynamic an allows for multiple set up variations.\
-    _Example:_
+    &#xNAN;_&#x45;xample:_
 
     {% code title="SETTINGS.lua" %}
     ```lua

@@ -1,4 +1,4 @@
-# ⚙ Configure Base Settings
+# ⚙️ Configure Base Settings
 
 ## Set a Community&#x20;
 
@@ -24,7 +24,7 @@ This string should be set once, and never changed as it will result in loss of L
 
 Users may change these in their GTA V > Settings > Hotkeys > FiveM settings. \
 More info: [CFX Cookbook - How RegisterKeyMappings Work](https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/)\
-List of Keys**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
+List of Key&#x73;**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
 
 `open_menu_key`: sets default key for opening LVC:Fleet Menu.\
 `lockout_default_key`: sets default key for toggling LVC:Fleet control lock, which disabled all controls.
@@ -34,7 +34,7 @@ List of Keys**:** [RegisterKeyMap Supported Keys](https://pastebin.com/u9ewvWWZ)
 **Indicator Controls**
 
 These static keys cannot be changed by the end user and support controller keys as well.\
-List of Keys**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/game-references/controls/)
+List of Key&#x73;**:** [CFX Game Reference - Controls](https://docs.fivem.net/docs/game-references/controls/)
 
 `hazard_key`_:_ when held for `hazard_hold_duration` toggle 4-way flashers.\
 `left_signal_key`: toggle left turn signal.\

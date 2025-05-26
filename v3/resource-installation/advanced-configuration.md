@@ -47,7 +47,7 @@ All HUD related functions/code is located in the UI folder. The default position
 }
 ```
 
-**The relevant attributes are: **_**left**_**, **_**top**_**, and **_**transform-origin**_**.**
+**The relevant attributes are:&#x20;**_**left**_**,&#x20;**_**top**_**, and&#x20;**_**transform-origin**_**.**
 
 * _left_ determines how far in percentage of the screen resolution should the HUD be placed from the left edge. If you wanted to right align the HUD you could change this to `right: XX%`, 0% being against the right edge of the display.
 * _top_ determines how far down from the top the HUD should be placed.
